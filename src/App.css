@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Whisper&display=swap');
+
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+
 }
 
 .navigation-items {
@@ -56,4 +59,38 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 text-align: center;
 padding: 65px;
 font-style: italic;
+}
+
+.main-container{
+  width: 100%;
+  height: 70vh;
+  /* border:  1px solid black; */
+}
+
+.conatiner{
+  width:97%;
+  height: 65vh;
+  /* border: 2px dotted red; */
+  /* text-align: center; */
+  margin-left:50px;
+  display: flex;
+  
+}
+
+.conatiner img{
+  width: 50%;
+  height: 64.5vh;
+ border-radius: 20px;
+}
+.para{
+  margin-left: 5%;
+  font-family: "Briem Hand", cursive;
+}
+
+.conatiner p{
+  /* margin-left: 10%; */
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-weight:lighter;
+  font-size:64px;
+  word-spacing: 2px;
 }

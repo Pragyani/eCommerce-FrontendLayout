@@ -1,6 +1,7 @@
 import React from "react";
 import "../header/header.css";
 import SearchIcon from '@mui/icons-material/Search';
+import Selection from "../selectDrop/SelectDroper";
 
 const Header = () => {
     return (
@@ -16,6 +17,7 @@ const Header = () => {
                             <div className="headerSearch d-flex align-items-center">
                                  <div className="selecrDrop cursor">
                                     All Categories
+                                    <Selection/>
                                  </div>
 
                                  <div className="search">

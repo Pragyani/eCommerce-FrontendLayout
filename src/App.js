@@ -1,17 +1,15 @@
 import React from 'react';
-import NavigationBar from './Components/navigation';
 import './App.css';
-import HeadigLine from './Components/TopHeading';
-import Container from './Components/mainContainer';
+import Header from './Components/header/header';
+
 function App() {
   return (
-
-    <div>
-      <NavigationBar />
-      <HeadigLine/>
-      <Container/>
-    </div>
+<>
+<Header/>
+</>
   );
 }
 
 export default App;
+
+

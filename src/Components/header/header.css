@@ -28,19 +28,19 @@ header .headerSearch {
 .headerSearch .search {
     width: 70%;
     padding-left: 30px;
-    position: relative;
+    /* position: relative; */
+    display: flex;
 }
 
 .headerSearch .search .search-icon{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    color:rgb(14, 81, 81) ;
+    color:rgb(75, 73, 73);
     cursor: pointer;
+    font-size: 20px;
+    margin-left:10px;
 }
 
 .search input {
-    width: 105%;
+    width: 110%;
     height: 25px;
     outline: none;
     border: 0px;

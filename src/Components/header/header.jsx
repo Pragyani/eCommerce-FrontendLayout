@@ -1,5 +1,6 @@
 import React from "react";
-import "../header/header.css"
+import "../header/header.css";
+import SearchIcon from '@mui/icons-material/Search';
 
 const Header = () => {
     return (
@@ -19,6 +20,7 @@ const Header = () => {
 
                                  <div className="search">
                                     <input type="text" placeholder="Search"/>
+                                    <SearchIcon className="search-icon"/>
                                  </div>
                             </div>
                         </div>

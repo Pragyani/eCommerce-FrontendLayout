@@ -1,96 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Whisper&display=swap');
 
-* {
+*{
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-
 }
 
-.navigation-items {
-  display: flex;
-  flex-direction: row;
-  background-color: #e0e3e6;
-  margin-top: 0%;
-  position: sticky;
-  padding: 10px;
-
+body{
+  font-family: "Reddit Sans", sans-serif;
+  
+}
+.container-header{
+ padding: 0px 35px; 
 }
 
-.navigation-items p {
-  width: 30%;
+.column-sm-5{
   margin-left: 15px;
-  padding-top: 50px;
-  font-size: xx-large;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: lighter
 }
 
-.navigation-items img {
-  margin-left: 50px;
-  border-radius: 100px;
-  height: 9.5em;
-}
-
-.navigation-items ul {
-  width: 80%;
-  margin-left: 10%;
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-  /* border: 1px solid black; */
-  
-}
-.navigation-items ul li{
-  padding-top:60px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: x-large;
-  font-weight: lighter;
-  letter-spacing: 1px;
+.cursor{
   cursor: pointer;
-}
-
-.top-line{
-  width: 100%;
-  height: 13pc;
-font-size: xx-large;
-font-weight: lighter;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-text-align: center;
-padding: 65px;
-font-style: italic;
-}
-
-.main-container{
-  width: 100%;
-  height: 70vh;
-  /* border:  1px solid black; */
-}
-
-.conatiner{
-  width:97%;
-  height: 65vh;
-  /* border: 2px dotted red; */
-  /* text-align: center; */
-  margin-left:50px;
-  display: flex;
-  
-}
-
-.conatiner img{
-  width: 50%;
-  height: 64.5vh;
- border-radius: 10px;
-}
-.para{
-  margin-left: 5%;
-  font-family: "Briem Hand", cursive;
-}
-
-.conatiner p{
-  /* margin-left: 10%; */
-  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-  font-weight:lighter;
-  font-size:64px;
-  word-spacing: 2px;
 }

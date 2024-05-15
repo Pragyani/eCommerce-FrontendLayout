@@ -3,7 +3,7 @@
     position: absolute;
     height:auto;
     background: #fff;
-    top: 150%;
+    top: 145%;
     left: -31px;
     z-index: 100;
     box-shadow: 0 3px 6px rgb(0 0 0/20%);
@@ -15,16 +15,38 @@
     border: 1px solid rgb(158, 189, 158);
     padding: 0px 15px;
     outline: none;
+    font-size: medium;
 }
 
 .selectDrop .searchResults {
     width:  100%;
     padding: 10px 0px;
+    max-height: 300px;
+    margin-top: 10px;
+    overflow-y: scroll;
+}
+.selectDrop .searchResults::-webkit-scrollbar{
+    width: 10px;
+
+}
+
+.selectDrop .searchResults::-webkit-scrollbar-thumb{
+    background-color: #ccc;
 }
 .selectDrop .searchResults li{
-    font-size: 20px;
+    font-size:15px;
     width: 100%;
     padding: 10px;
     list-style: none;
 
+}
+
+.selectDrop .searchResults li:hover{
+    background-color: #58ae86;
+    color: #fff;
+}
+
+.selecrDropWrapper .onSelect{
+    display: block;
+    padding: 0px 0px ;
 }

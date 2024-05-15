@@ -1,18 +1,30 @@
-.selectDrop{
-    width:300px;
+.selectDrop {
+    width: 300px;
     position: absolute;
-    height:  300px;
-    background:#fff;
+    height:auto;
+    background: #fff;
     top: 150%;
     left: -31px;
-z-index: 100;
-box-shadow: 0 3px 6px rgb(0 0 0/20%);
+    z-index: 100;
+    box-shadow: 0 3px 6px rgb(0 0 0/20%);
 }
 
-.searchFeild input{
- width: 100%;
- height: 50px ;
- border:  1px solid rgb(158, 189, 158);
- padding:0px 15px ;
- outline: none;
+.searchFeild input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(158, 189, 158);
+    padding: 0px 15px;
+    outline: none;
+}
+
+.selectDrop .searchResults {
+    width:  100%;
+    padding: 10px 0px;
+}
+.selectDrop .searchResults li{
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    list-style: none;
+
 }

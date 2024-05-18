@@ -49,31 +49,31 @@ const Header = () => {
                             <li className="list-inline-items">
                                 <span className="font">
                                     <img src="https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/icon-compare.svg" alt="compre.svg" />
-                                    <span className="notify-bar">3</span>
                                     <p>Compare</p>
-                                </span>
-                            </li>
-                            
-                            <li className="list-inline-items">
-                                <span className="font">
-                                    <img src="https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/icon-heart.svg" alt="compre.svg" />
                                     <span className="notify-bar">3</span>
-                                    <p>Wishlist</p>
                                 </span>
                             </li>
 
                             <li className="list-inline-items">
                                 <span className="font">
-                                    <img src="https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/icon-cart.svg" alt="compre.svg" />
-                                    <span className="notify-bar">3</span>
-                                    <p>Cart</p>
+                                    <img src="https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/icon-heart.svg" alt="wishlist.svg" />
+                                    <p>Wishlist</p>
+                                    <span className="notify-bar">6</span>
                                 </span>
                             </li>
-                            
+
                             <li className="list-inline-items">
                                 <span className="font">
-                                    <img src="https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/icon-user.svg" alt="compre.svg" />
-                                    <span className="notify-bar">3</span>
+                                    <img src="https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/icon-cart.svg" alt="cart.svg" />
+                                    <p>Cart</p>
+                                    <span className="notify-bar">2</span>
+                                </span>
+                            </li>
+
+                            <li className="list-inline-items">
+                                <span className="font">
+                                    <img src="https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/icon-user.svg" alt="a/c.svg" />
+                                    {/* <span className="notify-bar">3</span> */}
                                     <p>Account</p>
                                 </span>
                             </li>

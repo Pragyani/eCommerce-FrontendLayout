@@ -5,22 +5,22 @@ import Selection from "../selectDrop/SelectDroper";
 
 const Header = () => {
 
-const [categories , setCategories]=useState([
-    'All Categories',
-    'Milks & Daires',
-    'Wine & Drink',
-    'Clothing & Beauty',
-    'Fresh Seafood',
-    'Pet Food & Toy',
-    'Bakery Product',
-    'Fresh Fruit',
-    'vegetables',
-    'Fast Food',
-    'Bakery Product',
-    'Fresh Fruit',
-    'Vegetables',
-    'Fast Food'
-])
+    const [categories, setCategories] = useState([
+        'All Categories',
+        'Milks & Daires',
+        'Wine & Drink',
+        'Clothing & Beauty',
+        'Fresh Seafood',
+        'Pet Food & Toy',
+        'Bakery Product',
+        'Fresh Fruit',
+        'vegetables',
+        'Fast Food',
+        'Bakery Product',
+        'Fresh Fruit',
+        'Vegetables',
+        'Fast Food'
+    ])
 
 
 
@@ -36,14 +36,26 @@ const [categories , setCategories]=useState([
 
                         <div className="column-sm-5">
                             <div className="headerSearch d-flex align-items-center">
-                            <Selection data={categories}/>
-                                 
-                                 <div className="search">
-                                    <input type="text" placeholder="Search Here For Item..."/>
-                                    <SearchIcon className="search-icon"/>
-                                 </div>
+                                <Selection data={categories} />
+
+                                <div className="search">
+                                    <input type="text" placeholder="Search Here For Item..." />
+                                    <SearchIcon className="search-icon" />
+                                </div>
                             </div>
                         </div>
+
+                        <ul className="nav-items">
+                            <li className="list-inline-items">
+                                <span className="font">
+                                    <img src="https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/icon-compare.svg" alt="compre.svg" />
+                                    <span className="notify-bar">3</span>
+                                    <p>Compare</p>
+                                </span>
+                            </li>
+
+                            
+                        </ul>
                     </div>
                 </div>
             </header>

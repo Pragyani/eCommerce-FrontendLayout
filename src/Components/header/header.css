@@ -133,3 +133,50 @@
         color: white;
         background-color: rgb(85, 188, 136);
     }
+
+    .dropDownMenu {
+        position: absolute;
+        top: 85px;
+        height: auto;
+        width: 170px;
+        background: #fff;
+        box-shadow: 0px 3px 6px rgb(0 0 0 / 20%);
+        border: 1px solid rgb(158, 189, 158);
+        border-radius: 15px;
+    }
+
+    .dropDownMenu li {
+        width: 100%;
+        list-style: none;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .dropDownMenu li .btn-icons {
+        color: black;
+        font-family: "Reddit Sans", sans-serif;
+        font-size: smaller;
+        text-transform: capitalize;
+    }
+
+    .dropDownMenu li .user-icon {
+        width: 30px;
+        margin-right: 4px;
+    }
+
+    .dropDownMenu li .track-icon {
+        width: 30px;
+        margin-right: 4px;
+    }
+
+    .dropDownMenu li .signOut-icon {
+        width: 30px;
+        margin-right: 4px;
+    }
+
+    .dropDownMenu li .setting-icon {
+        width: 30px;
+        margin-right: 4px;
+    }

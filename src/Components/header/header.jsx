@@ -3,8 +3,10 @@ import "../header/header.css";
 import SearchIcon from '@mui/icons-material/Search';
 import Selection from "../selectDrop/SelectDroper";
 import Button from '@mui/material/Button';
-
-
+import PersonIcon from '@mui/icons-material/Person';
+import FmdGoodIcon from '@mui/icons-material/FmdGood';
+import LogoutIcon from '@mui/icons-material/Logout';
+import SettingsIcon from '@mui/icons-material/Settings';
 
 const Header = () => {
 
@@ -81,9 +83,10 @@ const Header = () => {
                                 </span>
 
                                 <ul className="dropDownMenu">
-                                    <li><Button>My Account Info     </Button></li>
-                                    <li><Button>Order Tracking</Button></li>
-                                    <li><Button>Sign Out</Button></li>
+                                    <li><Button className="btn-icons"><PersonIcon className="user-icon"/>My Account</Button></li>
+                                    <li><Button className="btn-icons"><FmdGoodIcon className="track-icon"/>Order Tracking</Button></li>
+                                    <li><Button className="btn-icons"><SettingsIcon className="setting-icon"/>Setting</Button></li>
+                                    <li><Button className="btn-icons"><LogoutIcon  className="signOut-icon"/>Sign Out </Button></li>
                                 </ul>
                             </li>
                         </ul>

@@ -4,7 +4,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import LogoutIcon from '@mui/icons-material/Logout';
 import SettingsIcon from '@mui/icons-material/Settings';
-import {compreIcon} from "../imagesURL/Images"
+import {WhisListIcon, cartIcon, compreIcon, userIcon} from "../imagesURL/Images"
 
 const NavigationList =()=>{
     
@@ -22,7 +22,7 @@ const NavigationList =()=>{
 
                             <li className="list-inline-items">
                                 <span className="font">
-                                    <img src="https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/icon-heart.svg" alt="wishlist.svg" />
+                                    <img src={WhisListIcon} alt="wishlist.svg" />
                                     <p>Wishlist</p>
                                     <span className="notify-bar">6</span>
                                 </span>
@@ -30,7 +30,7 @@ const NavigationList =()=>{
 
                             <li className="list-inline-items">
                                 <span className="font">
-                                    <img src="https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/icon-cart.svg" alt="cart.svg" />
+                                    <img src={cartIcon} alt="cart.svg" />
                                     <p>Cart</p>
                                     <span className="notify-bar">2</span>
                                 </span>
@@ -38,7 +38,7 @@ const NavigationList =()=>{
 
                             <li className="list-inline-items">
                                 <span className="font" onClick={() => setDropDownActive(!dropDownActive)}>
-                                    <img src="https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/icon-user.svg" alt="a/c.svg" />
+                                    <img src={userIcon} alt="a/c.svg" />
                                     {/* <span className="notify-bar">3</span> */}
                                     <p>Account</p>
                                 </span>

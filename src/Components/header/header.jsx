@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "../header/header.css";
 import SearchIcon from '@mui/icons-material/Search';
 import Selection from "../selectDrop/SelectDroper";
+import Button from '@mui/material/Button';
+
+
 
 const Header = () => {
 
@@ -76,6 +79,12 @@ const Header = () => {
                                     {/* <span className="notify-bar">3</span> */}
                                     <p>Account</p>
                                 </span>
+
+                                <ul className="dropDownMenu">
+                                    <li><Button>My Account Info     </Button></li>
+                                    <li><Button>Order Tracking</Button></li>
+                                    <li><Button>Sign Out</Button></li>
+                                </ul>
                             </li>
                         </ul>
                     </div>

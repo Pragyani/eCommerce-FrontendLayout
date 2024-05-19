@@ -7,8 +7,11 @@ import PersonIcon from '@mui/icons-material/Person';
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import LogoutIcon from '@mui/icons-material/Logout';
 import SettingsIcon from '@mui/icons-material/Settings';
+import { ClickAwayListener } from '@mui/base/ClickAwayListener';
 
 const Header = () => {
+
+    const [dropDownActive, setDropDownActive] = useState(false)
 
     const [categories, setCategories] = useState([
         'All Categories',
@@ -26,8 +29,6 @@ const Header = () => {
         'Vegetables',
         'Fast Food'
     ])
-
-
 
 
     return (
@@ -49,7 +50,7 @@ const Header = () => {
                                 </div>
                             </div>
                         </div>
-
+                
                         <ul className="nav-items">
                             <li className="list-inline-items">
                                 <span className="font">
@@ -76,20 +77,22 @@ const Header = () => {
                             </li>
 
                             <li className="list-inline-items">
-                                <span className="font">
+                                <span className="font" onClick={() => setDropDownActive(!dropDownActive)}>
                                     <img src="https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/icon-user.svg" alt="a/c.svg" />
                                     {/* <span className="notify-bar">3</span> */}
                                     <p>Account</p>
                                 </span>
 
-                                <ul className="dropDownMenu">
-                                    <li><Button className="btn-icons"><PersonIcon className="user-icon"/>My Account</Button></li>
-                                    <li><Button className="btn-icons"><FmdGoodIcon className="track-icon"/>Order Tracking</Button></li>
-                                    <li><Button className="btn-icons"><SettingsIcon className="setting-icon"/>Setting</Button></li>
-                                    <li><Button className="btn-icons"><LogoutIcon  className="signOut-icon"/>Sign Out </Button></li>
-                                </ul>
+                                {dropDownActive !== false &&
+                                    <ul className="dropDownMenu">
+                                        <li><Button className="btn-icons"><PersonIcon className="user-icon" />My Account</Button></li>
+                                        <li><Button className="btn-icons"><FmdGoodIcon className="track-icon" />Order Tracking</Button></li>
+                                        <li><Button className="btn-icons"><SettingsIcon className="setting-icon" />Setting</Button></li>
+                                        <li><Button className="btn-icons"><LogoutIcon className="signOut-icon" />Sign Out </Button></li>
+                                    </ul>}
                             </li>
                         </ul>
+                       
                     </div>
                 </div>
             </header>

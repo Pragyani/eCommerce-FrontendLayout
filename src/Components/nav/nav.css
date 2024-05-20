@@ -4,4 +4,26 @@
     margin-top:40px;
     border-top: 1px solid rgb(0,0,0,0.1);
     border-bottom: 1px solid rgb(0,0,0,0.1);
+
+}
+
+.browser-block{
+margin-left: 40px;
+margin-right: 20px;
+margin-top: 12px;
+
+}
+
+.browser-block .bgtext{
+     color: #fff;
+     background-color: #3bb77e;
+     font-family: "Reddit Sans", sans-serif;
+     padding: 8px 20px;
+     font-size:17px;
+     text-transform: capitalize;
+}
+
+.browser-block .bgtext:hover{
+    background-color: #54af85;
+    color: rgb(50, 48, 48);
 }

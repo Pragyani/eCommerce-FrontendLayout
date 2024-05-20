@@ -27,3 +27,10 @@ margin-top: 12px;
     background-color: #54af85;
     color: rgb(50, 48, 48);
 }
+
+.browser-block .bgtext .grid-icon{
+    width: 40px;
+    /* border:  1px solid black; */
+    margin-top: 0px;
+    
+}

@@ -1,15 +1,18 @@
 import React from "react";
 import Button from '@mui/material/Button';
-import "./nav.css"
+import "./nav.css";
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import GridViewIcon from '@mui/icons-material/GridView';
  
 const Nav =()=>{
     return(
         <>
-        <div className="nav">
-            <div className="container d-flex">
+        <div className="nav ">
+            <div className="container">
                 <div className="row-line">
+                    
                     <div className="browser-block">
-                    <Button>Browse All Categories</Button>
+                    <Button className="bgtext"><GridViewIcon className="grid-icon"/>Browse All Categories <KeyboardArrowDownIcon/></Button>
                     </div>
 
                     <div className="nav-content">
@@ -17,8 +20,8 @@ const Nav =()=>{
                     </div>
 
                     <div className="contact-block">
-
                     </div>
+
                 </div>
             </div>
         </div>

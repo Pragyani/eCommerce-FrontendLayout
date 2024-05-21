@@ -24,31 +24,31 @@ const Nav = () => {
                                     </li>
 
                                     <li className="list-items">
-                                        <Button><Link>Home</Link></Button>
+                                        <Button><Link>About</Link></Button>
                                     </li>
 
                                     <li className="list-items">
-                                        <Button><Link>Home</Link></Button>
+                                        <Button><Link>Shop</Link></Button>
                                     </li>
 
                                     <li className="list-items">
-                                        <Button><Link>Home</Link></Button>
+                                        <Button><Link>Vendors</Link></Button>
                                     </li>
 
                                     <li className="list-items">
-                                        <Button><Link>Home</Link></Button>
+                                        <Button><Link>Mega Menu</Link></Button>
                                     </li>
 
                                     <li className="list-items">
-                                        <Button><Link>Home</Link></Button>
+                                        <Button><Link>Blog</Link></Button>
                                     </li>
 
                                     <li className="list-items">
-                                        <Button><Link>Home</Link></Button>
+                                        <Button><Link>Pages</Link></Button>
                                     </li>
 
                                     <li className="list-items">
-                                        <Button><Link>Home</Link></Button>
+                                        <Button><Link>Contact</Link></Button>
                                     </li>
                                 </ul>
                             </nav>

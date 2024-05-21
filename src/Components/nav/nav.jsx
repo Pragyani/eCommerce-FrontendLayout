@@ -36,7 +36,7 @@ const Nav = () => {
                                     </li>
 
                                     <li className="list-items">
-                                        <Button><Link>Mega Menu</Link></Button>
+                                        <Button><Link>Mega Menu  <KeyboardArrowDownIcon  className="droper"/></Link></Button>
                                     </li>
 
                                     <li className="list-items">
@@ -44,7 +44,7 @@ const Nav = () => {
                                     </li>
 
                                     <li className="list-items">
-                                        <Button><Link>Pages</Link></Button>
+                                        <Button><Link>Pages <KeyboardArrowDownIcon  className="droper"/></Link></Button>
                                     </li>
 
                                     <li className="list-items">

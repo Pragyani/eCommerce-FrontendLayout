@@ -4,6 +4,7 @@ import "./nav.css";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import GridViewIcon from '@mui/icons-material/GridView';
 import { Link } from "react-router-dom";
+import HeadsetMicIcon from '@mui/icons-material/HeadsetMic';
 
 const Nav = () => {
     return (
@@ -55,6 +56,13 @@ const Nav = () => {
                         </div>
 
                         <div className="contact-block">
+                            <div className="phneIcon">
+                                <span><HeadsetMicIcon/></span>
+                                <div className="info-phneicon">
+                                    <h2 className="textno">1900-888</h2>
+                                    <p className="txt">24/7 Support Center</p>
+                                </div>
+                            </div>
                         </div>
 
                     </div>

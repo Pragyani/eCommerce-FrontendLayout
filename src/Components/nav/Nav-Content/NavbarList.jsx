@@ -33,6 +33,20 @@ const NavbarList = () => {
 
                 <li className="list-items">
                     <Button><Link>Pages <KeyboardArrowDownIcon className="droper" /></Link></Button>
+                    <div className="droperMenu">
+                        <ul>
+                            <li><Button><Link to="/about">About us</Link></Button></li>
+                            <li><Button><Link to="/about">Register</Link></Button></li>
+                            <li><Button><Link to="/about">Forget Password</Link></Button></li>
+                            <li><Button><Link to="/about">Reset Password</Link></Button></li>
+                            <li><Button><Link to="/about">Purchase Guide </Link></Button></li>
+                            <li><Button><Link to="/about">Privacy Policy</Link></Button></li>
+                            <li><Button><Link to="/about">Terms of Services</Link></Button></li>
+                            <li><Button><Link to="/about">404 Page</Link></Button></li>
+                        
+                        </ul>
+
+                    </div>
                 </li>
 
                 <li className="list-items">

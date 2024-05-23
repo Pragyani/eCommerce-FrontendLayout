@@ -1,9 +1,9 @@
 import React from "react";
-
+import HomeSlider from "./slider/slider";
 const Home =()=>{
     return(
         <>
-        <h3>This Is Home Page</h3>
+       <HomeSlider/>
         </>
     )
 }

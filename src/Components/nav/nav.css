@@ -41,16 +41,20 @@
 
 }
 
-.row-line .nav-content ul {
+.row-line .nav-list-item {
     display: flex;
     list-style: none;
     margin: 10px 20px 0px;
 }
 
+.nav-content nav ul li {
+    position: relative;
+}
+
 .nav-content nav ul li button {
     text-transform: capitalize;
     padding: 10px 25px;
-    color: rgb(0, 0, 0, 0.9);
+    color: #3bb77e;
 }
 
 .nav-content nav ul li button a {
@@ -59,33 +63,74 @@
     font-family: "Reddit Sans", sans-serif;
     font-size: 17px;
 }
-.list-items .droper{
-   width: 20px;
-   height: 20px;
-   padding-top:8px;
-   font-family: "Reddit Sans", sans-serif;
-   
+
+.list-items .droper {
+    width: 20px;
+    height: 20px;
+    padding-top: 8px;
+    font-family: "Reddit Sans", sans-serif;
+
 }
 
-.row-line .contact-block{
+.row-line .contact-block {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-right: 10px;
 }
-.row-line .contact-block .phneIcon{
+
+.row-line .contact-block .phneIcon {
     display: flex;
 }
 
-.contact-block .phneIcon{
-    font-size:16px;
+.contact-block .phneIcon {
+    font-size: 16px;
 }
-.contact-block .phneIcon span{
+
+.contact-block .phneIcon span {
     padding-top: 3px;
-    padding-right:5px;
+    padding-right: 5px;
 
 }
 
 
-.contact-block .phneIcon .info-phneicon .textno{
+.contact-block .phneIcon .info-phneicon .textno {
+    color: #3bb77e;
+}
+
+.nav-list-item .list-items .droperMenu  {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 15px;
+  /* visibility: hidden; */
+
+}
+
+.droperMenu{
+    visibility: hidden;
+}
+
+li:hover .droperMenu {
+    visibility: inherit;
+    transition: 0.1s ease-in-out;
+} 
+
+
+
+.list-items .droperMenu li {
+    width: 100%;
+    list-style: none;
+    margin: 0px;
+}
+
+.list-items .droperMenu li button {
+    width: 100%;
+    text-align: left;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 10px 20px;
     color: #3bb77e;
 }

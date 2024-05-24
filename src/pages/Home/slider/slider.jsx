@@ -7,17 +7,19 @@ import { Slid2, slider1 } from "../../../Components/imagesURL/Images";
 const HomeSlider = () => {
 
     var settings = {
-        dots: true,
+        dots: false,
+        arrows: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        fade: true
     };
 
     return (
         <section className="homSlider">
             <div className="sliderContainer">
-                <Slider {...settings}>
+                <Slider {...settings} className="home_slider_main">
                     <div className="item">
                         <img src={slider1} className="item-img" />
                     </div>

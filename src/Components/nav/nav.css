@@ -63,7 +63,9 @@
     font-family: "Reddit Sans", sans-serif;
     font-size: 17px;
 }
-
+/* .list-items{
+  position: static;
+} */
 .list-items .droper {
     width: 20px;
     height: 20px;
@@ -133,4 +135,11 @@ li:hover .droperMenu {
     font-size: 16px;
     padding: 10px 20px;
     color: #3bb77e;
+}
+
+
+.megaMenu{
+    /* width: 100px; */
+    height:auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }

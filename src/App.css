@@ -8,16 +8,12 @@
 
 body{
   font-family: "Reddit Sans", sans-serif;
+  overflow-x: hidden;
   
 }
 .container-header{
  padding: 0px 35px; 
 }
-
-.column-sm-5{
-  margin-left: 15px;
-}
-
 .cursor{
   cursor: pointer;
 }

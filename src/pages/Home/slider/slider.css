@@ -48,12 +48,18 @@
 } 
 .home_slider_main .item .item-info{
     position: absolute;
-    top: 15%;
+    top: 13%;
     z-index: 100;
     left:10%;
 }
 
 .home_slider_main .item .item-info h2{
-    font-size:60px;
+    font-size:65px;
   color: rgba(0,0,0,0.7);
+}
+.home_slider_main .item .item-info p{
+    font-size:22px;
+    font-size: 500;
+    color: #7E7E7E;
+    padding-top: 25px;
 }

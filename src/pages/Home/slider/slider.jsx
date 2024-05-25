@@ -2,7 +2,8 @@ import React from "react";
 import Slider from "react-slick";
 import './slider.css';
 import { Slid2, slider1 } from "../../../Components/imagesURL/Images";
-
+import Button from '@mui/material/Button';
+import ThumbUpOffAltIcon from '@mui/icons-material/ThumbUpOffAlt';
 
 const HomeSlider = () => {
 
@@ -49,6 +50,7 @@ const HomeSlider = () => {
 
                 <div className="newInputextarea">
                      <input type="text" placeholder="Your email id/address .." />
+                     <Button className="sub-btn">Subscribe <ThumbUpOffAltIcon className="right-icon"/></Button>
                 </div>
 
             </div>

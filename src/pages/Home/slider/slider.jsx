@@ -47,6 +47,10 @@ const HomeSlider = () => {
                     </div>
                 </Slider>
 
+                <div className="newInputextarea">
+                     <input type="text" placeholder="Your email id/address .." />
+                </div>
+
             </div>
         </section>
     )

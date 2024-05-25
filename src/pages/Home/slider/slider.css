@@ -25,24 +25,35 @@
     position: relative;
 }
 
-.slick-arrow {
+ .slick-arrow {
     position: absolute;
     top: 50%;
-    /* right: 20px;
-    left: 20px; */
     z-index: 1000;
     width: 50px;
     height: 60px;
     border-radius: 2px;
-    /* background-color: black; */
-
+    width: 100px;
 }
 
 .slick-arrow.slick-next {
-    right: 2%;
-    /* color: black;     */
+    right: 0%;
 }
 
 .slick-arrow.slick-prev {
-    left: 2%;
+    left: 0%;
+} 
+
+.home_slider_main{
+    position: relative;
+} 
+.home_slider_main .item .item-info{
+    position: absolute;
+    top: 15%;
+    z-index: 100;
+    left:10%;
+}
+
+.home_slider_main .item .item-info h2{
+    font-size:60px;
+  color: rgba(0,0,0,0.7);
 }

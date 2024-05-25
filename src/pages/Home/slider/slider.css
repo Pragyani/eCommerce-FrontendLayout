@@ -67,27 +67,53 @@
     padding-top: 25px;
 }
 
-.sliderContainer{
+.sliderContainer {
     position: relative;
 }
 
-.homSlider .newInputextarea{
+.homSlider .newInputextarea {
     width: 600px;
     height: 60px;
     position: absolute;
-    bottom:160px;
+    bottom: 160px;
     left: 10%;
     z-index: 10;
+
 }
 
-.homSlider .newInputextarea input{
+.homSlider .newInputextarea input {
     width: 100%;
     height: 94%;
     background-color: #fff;
     border-style: none;
-    border-radius:25px;
+    border-radius: 25px;
     outline: none;
-    padding-left: 40px;
+    padding-left: 50px;
+    padding-right: 200px;
     font-family: "Reddit Sans", sans-serif;
     font-size: 20px;
 }
+
+.newInputextarea .sub-btn {
+    background-color: #3bb77e;
+    color: whitesmoke;
+    border-radius: 27px;
+    padding: 10px 30px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 56.5px;
+    font-family: "Reddit Sans", sans-serif;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+.newInputextarea .right-icon{
+    padding-left:7px;
+    
+}
+.sub-btn:hover {
+    color: #3bb77e;
+
+}
+

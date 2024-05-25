@@ -28,11 +28,22 @@ const HomeSlider = () => {
                                 Don't miss amazing <br />
                                 grocery deals
                             </h2>
+                            <p>Sign up for the daily newsletter</p>
+
                         </div>
                     </div>
 
                     <div className="item">
                         <img src={slider1} className="item-img" />
+
+                        <div className="item-info">
+                            <h2 className="mb-4">
+                                Fresh Vegetables <br />
+                                Big Discount
+                            </h2>
+                            <p>Save up to 50% off on your first order</p>
+                        </div>
+
                     </div>
                 </Slider>
 

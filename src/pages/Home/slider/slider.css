@@ -25,7 +25,7 @@
     position: relative;
 }
 
- .slick-arrow {
+.slick-arrow {
     position: absolute;
     top: 50%;
     z-index: 1000;
@@ -41,25 +41,53 @@
 
 .slick-arrow.slick-prev {
     left: 0%;
-} 
+}
 
-.home_slider_main{
+.home_slider_main {
     position: relative;
-} 
-.home_slider_main .item .item-info{
+}
+
+.home_slider_main .item .item-info {
     position: absolute;
     top: 13%;
     z-index: 100;
-    left:10%;
+    left: 10%;
 }
 
-.home_slider_main .item .item-info h2{
-    font-size:65px;
-  color: rgba(0,0,0,0.7);
+.home_slider_main .item .item-info h2 {
+    font-size: 65px;
+    color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
 }
-.home_slider_main .item .item-info p{
-    font-size:22px;
+
+.home_slider_main .item .item-info p {
+    font-size: 22px;
     font-size: 500;
     color: #7E7E7E;
     padding-top: 25px;
+}
+
+.sliderContainer{
+    position: relative;
+}
+
+.homSlider .newInputextarea{
+    width: 600px;
+    height: 60px;
+    position: absolute;
+    bottom:160px;
+    left: 10%;
+    z-index: 10;
+}
+
+.homSlider .newInputextarea input{
+    width: 100%;
+    height: 94%;
+    background-color: #fff;
+    border-style: none;
+    border-radius:25px;
+    outline: none;
+    padding-left: 40px;
+    font-family: "Reddit Sans", sans-serif;
+    font-size: 20px;
 }

@@ -11,15 +11,39 @@
     font-weight: 600;
     padding-left: 20px;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .semi_slider_Main .itemes{
     /* width: 100%; */
     height: auto;
     background: #F4F6FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
 .semi_slider_Main .slick-slide{
     padding-right:12px;
+}
+
+.semi_slider_Main .itemes .info{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-direction: column;
+}
+
+.semi_slider_Main .itemes .info h5{
+    font-size:large;
+    font-weight: 500;
+}
+
+.semi_slider_Main .itemes .info p{
+    font-size: 14px;
+    color: #000;
 }

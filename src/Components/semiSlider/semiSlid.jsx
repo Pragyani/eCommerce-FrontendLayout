@@ -7,7 +7,7 @@ const SemiSlider = () => {
 
 
     var settings = {
-        dots: true,
+        dots: false,
         arrows: true,
         infinite: true,
         speed: 500,
@@ -26,7 +26,7 @@ const SemiSlider = () => {
                         <div className="itemes">
                             <div className="info">
                                 <img src={semiSliderImg1} alt="productImg" />
-                                <h5>Cake & Milk</h5>
+                                <h5>Peach</h5>
                                 <p>26 items</p>
                             </div>
                         </div>
@@ -34,15 +34,15 @@ const SemiSlider = () => {
                         <div className="itemes">
                             <div className="info">
                                 <img src={semiSliderImg2} alt="productImg" />
-                                <h5>Cake & Milk</h5>
-                                <p>26 items</p>
+                                <h5>Snack</h5>
+                                <p>54 items</p>
                             </div>
                         </div>
 
                         <div className="itemes">
                             <div className="info">
                                 <img src={semiSliderImg3} alt="productImg" />
-                                <h5>Cake & Milk</h5>
+                                <h5>Vegetables</h5>
                                 <p>26 items</p>
                             </div>
                         </div>
@@ -50,8 +50,8 @@ const SemiSlider = () => {
                         <div className="itemes">
                             <div className="info">
                                 <img src={semiSliderImg4} alt="productImg" />
-                                <h5>Cake & Milk</h5>
-                                <p>26 items</p>
+                                <h5>Black Pump</h5>
+                                <p>123 items</p>
                             </div>
                         </div>
 
@@ -67,24 +67,24 @@ const SemiSlider = () => {
                         <div className="itemes">
                             <div className="info">
                                 <img src={semiSliderImg6} alt="productImg" />
-                                <h5>Cake & Milk</h5>
-                                <p>26 items</p>
+                                <h5>Custard Apple</h5>
+                                <p>34 items</p>
                             </div>
                         </div>
 
                         <div className="itemes">
                             <div className="info">
                                 <img src={semiSliderImg7} alt="productImg" />
-                                <h5>Cake & Milk</h5>
-                                <p>26 items</p>
+                                <h5>Stwraberry</h5>
+                                <p>66 items</p>
                             </div>
                         </div>
 
                         <div className="itemes">
                             <div className="info">
                                 <img src={semiSliderImg8} alt="productImg" />
-                                <h5>Cake & Milk</h5>
-                                <p>26 items</p>
+                                <h5>Black Pump</h5>
+                                <p>123 items</p>
                             </div>
                         </div>
 
@@ -99,8 +99,8 @@ const SemiSlider = () => {
                         <div className="itemes">
                             <div className="info">
                                 <img src={semiSliderImg10} alt="productImg" />
-                                <h5>Cake & Milk</h5>
-                                <p>26 items</p>
+                                <h5>Custard Apple</h5>
+                                <p>34 items</p>
                             </div>
                         </div>
                     </Slider>

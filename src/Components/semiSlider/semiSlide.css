@@ -1,8 +1,8 @@
 .semiSection {
     width: 100%;
     height: auto;
- padding-left: 30px;
- padding-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .semi-heading {
@@ -14,36 +14,51 @@
     padding-bottom: 50px;
 }
 
-.semi_slider_Main .itemes{
+.semi_slider_Main .itemes {
     /* width: 100%; */
     height: auto;
     background: #F4F6FA;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.semi_slider_Main .slick-slide{
-    padding-right:12px;
+.semi_slider_Main .slick-slide {
+    padding-right: 12px;
 }
 
-.semi_slider_Main .itemes .info{
+.slick-prev:before {
+    content: '←';
+    font-size: xx-large;
+    color: #3bb77e;
+    padding-right: 15px;
+}
+
+.slick-next:before {
+    content: '→';
+    font-size: xx-large;
+    color: #3bb77e;
+    padding-left: 15px;
+}
+
+.semi_slider_Main .itemes .info {
     margin: auto;
     padding-top: 10px;
     padding-bottom: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-  flex-direction: column;
+    flex-direction: column;
 }
 
-.semi_slider_Main .itemes .info h5{
-    font-size:large;
+.semi_slider_Main .itemes .info h5 {
+    font-size: large;
     font-weight: 500;
 }
 
-.semi_slider_Main .itemes .info p{
+.semi_slider_Main .itemes .info p {
     font-size: 14px;
     color: #000;
 }

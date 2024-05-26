@@ -1,6 +1,7 @@
 import React from "react";
 import './semiSlide.css'
 import Slider from "react-slick";
+import { semiSliderImg1, semiSliderImg10, semiSliderImg2, semiSliderImg3, semiSliderImg4, semiSliderImg5, semiSliderImg6, semiSliderImg7, semiSliderImg8, semiSliderImg9 } from "../imagesURL/Images";
 
 const SemiSlider = () => {
 
@@ -9,7 +10,7 @@ const SemiSlider = () => {
         dots: true,
         arrows: true,
         infinite: true,
-        speed: 200,
+        speed: 500,
         slidesToShow: 9,
         slidesToScroll: 1
 
@@ -24,7 +25,7 @@ const SemiSlider = () => {
 
                         <div className="itemes">
                             <div className="info">
-                                <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-12.png" alt="productImg" />
+                                <img src={semiSliderImg1} alt="productImg" />
                                 <h5>Cake & Milk</h5>
                                 <p>26 items</p>
                             </div>
@@ -32,7 +33,7 @@ const SemiSlider = () => {
 
                         <div className="itemes">
                             <div className="info">
-                                <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-12.png" alt="productImg" />
+                                <img src={semiSliderImg2} alt="productImg" />
                                 <h5>Cake & Milk</h5>
                                 <p>26 items</p>
                             </div>
@@ -40,7 +41,7 @@ const SemiSlider = () => {
 
                         <div className="itemes">
                             <div className="info">
-                                <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-12.png" alt="productImg" />
+                                <img src={semiSliderImg3} alt="productImg" />
                                 <h5>Cake & Milk</h5>
                                 <p>26 items</p>
                             </div>
@@ -48,7 +49,7 @@ const SemiSlider = () => {
 
                         <div className="itemes">
                             <div className="info">
-                                <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-12.png" alt="productImg" />
+                                <img src={semiSliderImg4} alt="productImg" />
                                 <h5>Cake & Milk</h5>
                                 <p>26 items</p>
                             </div>
@@ -57,7 +58,7 @@ const SemiSlider = () => {
 
                         <div className="itemes">
                             <div className="info">
-                                <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-12.png" alt="productImg" />
+                                <img src={semiSliderImg5} alt="productImg" />
                                 <h5>Cake & Milk</h5>
                                 <p>26 items</p>
                             </div>
@@ -65,7 +66,7 @@ const SemiSlider = () => {
 
                         <div className="itemes">
                             <div className="info">
-                                <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-12.png" alt="productImg" />
+                                <img src={semiSliderImg6} alt="productImg" />
                                 <h5>Cake & Milk</h5>
                                 <p>26 items</p>
                             </div>
@@ -73,7 +74,7 @@ const SemiSlider = () => {
 
                         <div className="itemes">
                             <div className="info">
-                                <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-12.png" alt="productImg" />
+                                <img src={semiSliderImg7} alt="productImg" />
                                 <h5>Cake & Milk</h5>
                                 <p>26 items</p>
                             </div>
@@ -81,7 +82,7 @@ const SemiSlider = () => {
 
                         <div className="itemes">
                             <div className="info">
-                                <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-12.png" alt="productImg" />
+                                <img src={semiSliderImg8} alt="productImg" />
                                 <h5>Cake & Milk</h5>
                                 <p>26 items</p>
                             </div>
@@ -89,7 +90,7 @@ const SemiSlider = () => {
 
                         <div className="itemes">
                             <div className="info">
-                                <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-12.png" alt="productImg" />
+                                <img src={semiSliderImg9} alt="productImg" />
                                 <h5>Cake & Milk</h5>
                                 <p>26 items</p>
                             </div>
@@ -97,7 +98,7 @@ const SemiSlider = () => {
 
                         <div className="itemes">
                             <div className="info">
-                                <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-12.png" alt="productImg" />
+                                <img src={semiSliderImg10} alt="productImg" />
                                 <h5>Cake & Milk</h5>
                                 <p>26 items</p>
                             </div>

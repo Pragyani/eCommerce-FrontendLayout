@@ -18,3 +18,28 @@ export default logoImg;
  export const slider1 = "https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/slider-1.png?raw=true"
 
  export const Slid2 ='https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/slider-2.png?raw=true'
+
+ 
+
+ //semiSlider images...//
+
+
+ export const semiSliderImg1 ="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-11.png";
+
+ export const semiSliderImg2 ="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-3.png";
+
+ export const semiSliderImg3 = "https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-1.png";
+
+ export const semiSliderImg4 ="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-4.png";
+
+ export const semiSliderImg5 ="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-13.png";
+
+ export const semiSliderImg6 ="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-5.png";
+
+ export const semiSliderImg7 ="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-2.png";
+
+ export const semiSliderImg8 ="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-4.png";
+
+ export const semiSliderImg9 ="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-13.png";
+
+ export const semiSliderImg10 ="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-5.png";

@@ -1,0 +1,21 @@
+.semiSection {
+    width: 100%;
+    height: auto;
+ padding-left: 30px;
+ padding-right: 30px;
+}
+
+.semi-heading {
+    font-family: "Reddit Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.semi_slider_Main .itemes{
+    width: 100%;
+    height: 150px;
+    background: #ccc;
+    
+}

@@ -43,3 +43,13 @@ export default logoImg;
  export const semiSliderImg9 ="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-13.png";
 
  export const semiSliderImg10 ="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-5.png";
+
+
+
+ //banner Images
+
+ export const BannerImg1 = 'https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/banner1.jpg?raw=true'
+
+ export const BannerImg2 = 'https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/banner2.jpg?raw=true';
+
+ export const BannerImg3= 'https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/banner3.jpg?raw=true';

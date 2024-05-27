@@ -4,8 +4,8 @@ import Slider from "react-slick";
 import { semiSliderImg1, semiSliderImg10, semiSliderImg2, semiSliderImg3, semiSliderImg4, semiSliderImg5, semiSliderImg6, semiSliderImg7, semiSliderImg8, semiSliderImg9 } from "../imagesURL/Images";
 
 const SemiSlider = () => {
-     
-    const [itemBg , setItemBg] = useState([
+
+    const [itemBg, setItemBg] = useState([
         '#fffceb',
         '#ecffec',
         '#feefea',
@@ -43,16 +43,20 @@ const SemiSlider = () => {
                 <div className="semiContainer">
                     <h3 className="semi-heading">Featured Categories</h3>
                     <Slider {...settings} className="semi_slider_Main">
+                        {
 
-                        <div className="itemes">
-                            <div className="info">
-                                <img src={semiSliderImg1} alt="productImg" />
-                                <h5>Peach</h5>
-                                <p>26 items</p>
-                            </div>
-                        </div>
+                            itemBg.length !== 0 && itemBg.map((item,index) => {
+                                return (
+                                    <div className="itemes">
+                                        <div className="info" style={{background:item}}>
+                                            <img src={semiSliderImg1} alt="productImg" />
+                                            <h5>Peach</h5>
+                                            <p>26 items</p>
+                                        </div>
+                                    </div>)
+                            })}
 
-                        <div className="itemes">
+                        {/* <div className="itemes">
                             <div className="info">
                                 <img src={semiSliderImg2} alt="productImg" />
                                 <h5>Snack</h5>
@@ -123,7 +127,7 @@ const SemiSlider = () => {
                                 <h5>Custard Apple</h5>
                                 <p>34 items</p>
                             </div>
-                        </div>
+                        </div> */}
                     </Slider>
                 </div>
             </div>

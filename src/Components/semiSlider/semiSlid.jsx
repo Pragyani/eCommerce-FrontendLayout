@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import './semiSlide.css'
 import Slider from "react-slick";
 import { semiSliderImg1, semiSliderImg10, semiSliderImg2, semiSliderImg3, semiSliderImg4, semiSliderImg5, semiSliderImg6, semiSliderImg7, semiSliderImg8, semiSliderImg9 } from "../imagesURL/Images";
 
 const SemiSlider = () => {
+     
+    const [itemBg , setItemBg] = useState([
+        '#fffceb',
+        '#ecffec',
+        '#feefea',
+        '#fff3eb',
+        '#fff3ff',
+        '#f2fce4',
+        '#feefea',
+        '#fffceb',
+        '#feefea',
+        '#ecffec',
+        '#feefea',
+        '#fff3eb',
+        '#fff3ff',
+        '#f2fce4',
+        '#feefea',
+        '#fffceb',
+        '#feefea',
+        '#ecffec'
+    ])
 
 
     var settings = {

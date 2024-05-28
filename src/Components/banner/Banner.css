@@ -19,8 +19,13 @@
 
 .banner-section .banner-col img{
     width: 100%;
-    padding: 15px 15px;
-    border-radius: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
     margin-right: 2px;
     margin-left: 2px;
+}
+
+.banner-section .box{
+    cursor: pointer;
 }

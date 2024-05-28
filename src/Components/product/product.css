@@ -1,8 +1,12 @@
 .productThumb{
     width: 100%;
-    height:400px;
+    height:auto;
     border-radius: 20px;
     border: 1px rgba(0,0,0,0.2) solid;
     overflow: hidden;
     padding: 15px;
+}
+
+.p-img{
+   width: 100%;
 }

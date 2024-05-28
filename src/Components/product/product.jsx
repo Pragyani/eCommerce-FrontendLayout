@@ -1,5 +1,6 @@
 import React from "react";
 import './product.css';
+import Rating from '@mui/material/Rating';
 
 const Product =()=>{
     return(
@@ -10,8 +11,9 @@ const Product =()=>{
             </div>
 
             <div className="info">
-                <span className="based-brand">Snacks</span>
+                <span className="based-categories">Snacks</span>
                 <h4 className="tittle">Seeds of Change Organic Quinoa, Brown, & Red Rice </h4>
+                <Rating name="half-rating-read" defaultValue={4.5} precision={0.5} readOnly />
             </div>
         </div>
         </>

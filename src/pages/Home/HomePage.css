@@ -1,0 +1,45 @@
+.homeProduct{
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.home-Container{
+    width: 100%;
+    height: auto;
+}
+.list-i{
+    display: flex;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.list-i .home-h2{
+    font-family: "Reddit Sans", sans-serif;
+    font-size: 32px;
+    font-weight:600;
+    width: 50%;
+}
+
+.list-i .list-inline{
+    width:50%;
+    
+ display: flex;
+ justify-content:space-evenly ;   
+}
+
+.list-inline li{
+    list-style: none;
+    font-family:  "Reddit Sans", sans-serif;
+    font-size:large;
+    cursor: pointer;
+    padding-left: 10px;
+    color: rgb(64, 87, 87);
+}
+
+
+.list-inline li:hover{
+    color: #3bb77e;
+   
+}
+

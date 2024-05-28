@@ -3,6 +3,7 @@ import './HomePage.css';
 import HomeSlider from "./slider/slider";
 import SemiSlider from "../../Components/semiSlider/semiSlid";
 import Banner from "../../Components/banner/Banner";
+import Product from "../../Components/product/product";
 
 const Home = () => {
     return (
@@ -45,6 +46,12 @@ const Home = () => {
                                 <a className="List">Fruits</a>
                             </li>
                         </ul>
+                    </div>
+
+                    <div className="productrow">
+                        <div className="productItem">
+                            <Product/>
+                        </div>
                     </div>
                 </div>
             </section>

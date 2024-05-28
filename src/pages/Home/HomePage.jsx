@@ -13,7 +13,7 @@ const Home = () => {
 
             <section className="homeProduct">
                 <div className="home-Container">
-                    <div className="list-items">
+                    <div className="list-i">
                         <h2 className="home-h2">Popular Products</h2>
 
                         <ul className="list-inline">

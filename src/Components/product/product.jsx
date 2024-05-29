@@ -2,7 +2,8 @@ import React from "react";
 import './product.css';
 import Rating from '@mui/material/Rating';
 import Button from '@mui/material/Button';
-
+import { Link } from "react-router-dom";
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const Product =()=>{
     return(
@@ -14,7 +15,7 @@ const Product =()=>{
 
             <div className="info">
                 <span className="based-categories">Snacks</span>
-                <h4 className="tittle">Seeds of Change Organic Quinoa, Brown, & Red Rice </h4>
+                <h4 className="tittle"><Link>Seeds of Change Organic Quinoa, Brown, & Red Rice</Link> </h4>
                 <Rating name="half-rating-read" defaultValue={4.5} precision={0.5} readOnly />
                 <span className="brand">By <a  className="text"> Nest Food</a></span>
 
@@ -22,7 +23,7 @@ const Product =()=>{
                     <div className="price-info">
                         <span className="price">$32.8</span>
 
-                        <Button className="ad-btn">Add +</Button>
+                        <Button className="ad-btn">Add <ShoppingCartIcon className="cart-i"/></Button>
                     </div>
                 </div>
             </div>

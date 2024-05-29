@@ -2,11 +2,15 @@
     width: 100%;
     height: auto;
     border-radius: 20px;
-    border: 1px rgba(0, 0, 0, 0.2) solid;
+    border: 1px rgba(0, 0, 0, 0.1) solid;
     overflow: hidden;
     padding: 15px;
+    transition: all 0.3s ease-in-out;
 }
 
+.productThumb:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
 .p-img {
     width: 100%;
 }

@@ -13,18 +13,22 @@
 
 .info .brand {
     display: block;
-    margin-top: 2px;
+    padding-top: 4px;
+    cursor: pointer;
 }
 
 .tittle {
     padding-top: 4px;
     padding-bottom: 5px;
+    cursor: pointer;
 }
 
 span.based-categories {
     margin-bottom: 20px;
     font-family: "Reddit Sans", sans-serif;
     font-size: large;
+    cursor: pointer;
+   padding-left: 100px;
 }
 
 .price-info {
@@ -41,6 +45,7 @@ span.based-categories {
     padding-left: 5px;
     font-family: "Reddit Sans", sans-serif;
     font-size: large;
+    cursor: pointer;
 }
 
 .price-info .ad-btn {

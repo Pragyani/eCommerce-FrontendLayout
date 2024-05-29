@@ -31,27 +31,42 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-.productThumb .imgWrapper .overlay ul{
-    background-color: #fff;
-    width:139px;
+.productThumb .imgWrapper .overlay ul {
+    width: 137px;
     height: auto;
     border-radius: 8px;
-    
+
 }
 
-.productThumb .imgWrapper .overlay ul li a{
-    /* display: block; */
-    padding: 9px;
-    border-right: 1px solid #94b5a0;
- 
-}
 
-.productThumb .imgWrapper .overlay ul li{
+.productThumb .imgWrapper .overlay ul li {
+    display: flex;
     margin: 0px;
     height: 36px;
+
 }
+
+
+.productThumb .imgWrapper .overlay ul li a {
+    display: block;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 3px;
+
+    /* border: 1px solid #94b5a0; */
+
+}
+
+.productThumb .imgWrapper .overlay ul li .pro-i {
+    height: 30px;
+    padding-bottom: 2px;
+    margin-right: 3px;
+    padding-right: 3px;
+}
+
 .productThumb:hover .imgWrapper img {
     transform: scale(1.1);
 }

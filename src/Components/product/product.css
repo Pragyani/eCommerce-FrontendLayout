@@ -23,6 +23,9 @@
     cursor: pointer;
 }
 
+.tittle a{
+    text-decoration: none;
+}
 span.based-categories {
     margin-bottom: 20px;
     font-family: "Reddit Sans", sans-serif;
@@ -57,4 +60,8 @@ span.based-categories {
 .price-info .ad-btn:hover {
     background-color: #7cd7ab;
     color: black;
+}
+.ad-btn .cart-i{
+    width: 20px;
+  padding-left: 4px;
 }

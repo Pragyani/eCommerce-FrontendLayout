@@ -14,6 +14,7 @@ const Product =()=>{
                 <span className="based-categories">Snacks</span>
                 <h4 className="tittle">Seeds of Change Organic Quinoa, Brown, & Red Rice </h4>
                 <Rating name="half-rating-read" defaultValue={4.5} precision={0.5} readOnly />
+                <span className="brand">By <a  className="text"> Nest Food</a></span>
             </div>
         </div>
         </>

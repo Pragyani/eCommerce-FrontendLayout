@@ -11,6 +11,10 @@ const Product =()=>{
         <div className="productThumb">
             <div className="imgWrapper">
                 <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-2.jpg" alt="ProductImages" className="p-img"/>
+
+                <div className="overlay">
+                    
+                </div>
             </div>
 
             <div className="info">

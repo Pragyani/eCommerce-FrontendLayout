@@ -10,3 +10,14 @@
 .p-img{
    width: 100%;
 }
+
+.info .brand{
+    display: block;
+}
+
+span.based-categories{
+    margin-bottom: 20px;
+    font-family: "Reddit Sans", sans-serif;
+    font-size: large;
+}
+

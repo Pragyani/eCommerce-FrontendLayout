@@ -4,6 +4,9 @@ import Rating from '@mui/material/Rating';
 import Button from '@mui/material/Button';
 import { Link } from "react-router-dom";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import CompareOutlinedIcon from '@mui/icons-material/CompareOutlined';
+import RemoveRedEyeRoundedIcon from '@mui/icons-material/RemoveRedEyeRounded';
 
 const Product =()=>{
     return(
@@ -14,7 +17,9 @@ const Product =()=>{
 
                 <div className="overlay">
                     <ul className="list-inline">
-                        <li></li>
+                        <li className="product-list">
+
+                        </li>
                     </ul>
                 </div>
             </div>

@@ -19,13 +19,13 @@ const Product =()=>{
                     <ul className="list-inline">
                         <li className="product-list">
                          <a className="prolist-i">
-                            <FavoriteIcon/>
+                            <FavoriteIcon className="pro-i"/>
                          </a>
                          <a className="prolist-i">
-                            <CompareOutlinedIcon/>
+                            <CompareOutlinedIcon className="pro-i"/>
                          </a>
                          <a className="prolist-i">
-                            <RemoveRedEyeRoundedIcon/>
+                            <RemoveRedEyeRoundedIcon className="pro-i"/>
                          </a>
                         </li>
                     </ul>

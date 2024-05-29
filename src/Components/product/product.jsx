@@ -18,7 +18,15 @@ const Product =()=>{
                 <div className="overlay">
                     <ul className="list-inline">
                         <li className="product-list">
-
+                         <a className="prolist-i">
+                            <FavoriteIcon/>
+                         </a>
+                         <a className="prolist-i">
+                            <CompareOutlinedIcon/>
+                         </a>
+                         <a className="prolist-i">
+                            <RemoveRedEyeRoundedIcon/>
+                         </a>
                         </li>
                     </ul>
                 </div>

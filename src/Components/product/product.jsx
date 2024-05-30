@@ -12,6 +12,7 @@ const Product =()=>{
     return(
         <>
         <div className="productThumb">
+            <span className="badge">Hot</span>
             <div className="imgWrapper">
                 <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-2.jpg" alt="ProductImages" className="p-img"/>
 

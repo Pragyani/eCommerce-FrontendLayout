@@ -6,10 +6,28 @@
     overflow: hidden;
     padding: 15px;
     transition: all 0.3s ease-in-out;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+.productThumb .badge{
+  position: absolute;
+  top: 0px;
+  padding-right:10px;
+  padding-left: 10px;
+  font-family: "Reddit Sans", sans-serif;
+  left: 0px;
+  display: inline-block;
+  background-color: rgb(149, 118, 118);
+  color: black;
+  z-index: 20;
+  font-size: 16px;
 }
 
 .productThumb:hover {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
 }
 
 .productThumb .imgWrapper {

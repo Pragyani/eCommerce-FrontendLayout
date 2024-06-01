@@ -4,6 +4,7 @@ import HomeSlider from "./slider/slider";
 import SemiSlider from "../../Components/semiSlider/semiSlid";
 import Banner from "../../Components/banner/Banner";
 import Product from "../../Components/product/product";
+import { BannerImg4 } from "../../Components/imagesURL/Images";
 
 const Home = () => {
     return (
@@ -101,6 +102,13 @@ const Home = () => {
                                 <a className="List">New Added</a>
                             </li>
                         </ul>
+                    </div>
+                                  <br /><br />
+                    <div className="row">
+                        <div className="col-img">
+                            <img src={BannerImg4} alt="" />
+                         
+                        </div>
                     </div>
 
                 </div>

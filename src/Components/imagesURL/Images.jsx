@@ -53,3 +53,5 @@ export default logoImg;
  export const BannerImg2 = 'https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/banner2.jpg?raw=true';
 
  export const BannerImg3= 'https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/banner3.jpg?raw=true';
+
+ export const BannerImg4='https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/banner4.jpg?raw=true'

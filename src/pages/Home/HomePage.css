@@ -66,3 +66,13 @@
    /* font-size: larger; */
    font-weight:500;
 }
+
+.sliderContainer{
+    width: 100%;
+    overflow: hidden;
+}
+
+.sliderContainer .prodSlider .slick-slide{
+    padding-right: 28px;
+  
+}

@@ -4,7 +4,8 @@ import HomeSlider from "./slider/slider";
 import SemiSlider from "../../Components/semiSlider/semiSlid";
 import Banner from "../../Components/banner/Banner";
 import Product from "../../Components/product/product";
-import { BannerImg4 } from "../../Components/imagesURL/Images";
+import Sellslider from "./bestSellslide/sellSlider";
+import ProductSectionlist from "./bestSellslide/productSectionlist";
 
 const Home = () => {
     return (
@@ -12,105 +13,44 @@ const Home = () => {
             <HomeSlider />
             <SemiSlider />
             <Banner />
-
             <section className="homeProduct">
                 <div className="home-Container">
-                    <div className="list-i">
-                        <h2 className="home-h2">Popular Products</h2>
-
-                        <ul className="list-inline">
-                            <li className="product-list">
-                                <a className="List">All</a>
-                            </li>
-
-                            <li className="product-list">
-                                <a className="List">Milks and Daires</a>
-                            </li>
-
-                            <li className="product-list">
-                                <a className="List">Coffes & Tea</a>
-                            </li>
-
-                            <li className="product-list">
-                                <a className="List">Pet Foods</a>
-                            </li>
-
-                            <li className="product-list">
-                                <a className="List">Meats</a>
-                            </li>
-
-                            <li className="product-list">
-                                <a className="List">Vegetables</a>
-                            </li>
-
-                            <li className="product-list">
-                                <a className="List">Fruits</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <ProductSectionlist />
 
                     <div className="productrow">
                         <div className="productItem">
-                            <Product/>
+                            <Product />
                         </div>
                         <div className="productItem">
-                            <Product/>
+                            <Product />
                         </div>
                         <div className="productItem">
-                            <Product/>
+                            <Product />
                         </div>
                         <div className="productItem">
-                            <Product/>
+                            <Product />
                         </div>
                         <div className="productItem">
-                            <Product/>
+                            <Product />
                         </div>
                         <div className="productItem">
-                            <Product/>
+                            <Product />
                         </div>
                         <div className="productItem">
-                            <Product/>
+                            <Product />
                         </div>
                         <div className="productItem">
-                            <Product/>
+                            <Product />
                         </div>
                         <div className="productItem">
-                            <Product/>
+                            <Product />
                         </div>
                         <div className="productItem">
-                            <Product/>
+                            <Product />
                         </div>
                     </div>
 
-
-
-
-
-                    <div className="list-i">
-                        <h2 className="home-h2">Daily Best Sells</h2>
-
-                        <ul className="list-inline">
-                            <li className="tag-list">
-                                <a className="List">Popular</a>
-                            </li>
-
-                            <li className="tag-list">
-                                <a className="ListMilks ">Featured</a>
-                            </li>
-
-                            <li className="tag-list">
-                                <a className="List">New Added</a>
-                            </li>
-                        </ul>
-                    </div>
-                                  <br /><br />
-                    <div className="row">
-                        <div className="col-img">
-                            <img src={BannerImg4} alt="" />
-                         
-                        </div>
-                    </div>
-
+                    <Sellslider />
                 </div>
             </section>
             <br /><br /><br /><br /><br />

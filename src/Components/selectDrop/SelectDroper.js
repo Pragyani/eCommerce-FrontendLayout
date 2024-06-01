@@ -4,7 +4,7 @@ import "../header/header.css";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { ClickAwayListener } from '@mui/base/ClickAwayListener';
 
-const Selection = (props) => {
+const Selection = ({data}) => {
 
     const [isOpenSelect, setIsOpenSelect] = useState(false);
     const [selectedIndex, setSelectedIndex] = useState(0)
@@ -32,7 +32,7 @@ const Selection = (props) => {
                                 <input type="text" placeholder="Search items" />
                             </div>
                             <ul className="searchResults">
-                                {props.data.map((items, index) => {
+                                {data.map((items, index) => {
                                     return (
                                         <li onClick={() => closeSelect(index, items)} className={`${selectedIndex === index ? 'active' : ''}`}>{items}</li>
                                     )

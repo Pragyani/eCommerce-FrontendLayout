@@ -44,40 +44,47 @@
     color: #3bb77e;
 
 }
-.homeProduct .productrow{
+
+.homeProduct .productrow {
     display: flex;
     flex-wrap: wrap;
     padding: 30px 0px;
     margin: 0px -15px;
 }
 
-.homeProduct .productrow .productItem{
+.homeProduct .productrow .productItem {
     width: 20%;
     padding: 15px 15px;
 }
 
-.list-inline .tag-list{
+.list-inline .tag-list {
     border: 1px rgba(0, 0, 0, 0.1) solid;
-   width: 40%;
-   text-align: center;
-   padding-top: 4px;
-   color: rgb(64, 87, 87);
-   border-radius: 10px;
-   /* font-size: larger; */
-   font-weight:500;
+    width: 40%;
+    text-align: center;
+    padding-top: 4px;
+    color: rgb(64, 87, 87);
+    border-radius: 10px;
+    /* font-size: larger; */
+    font-weight: 500;
 }
 
-.sliderContainer{
+.sliderContainer {
     width: 100%;
     overflow: hidden;
 }
 
-.sliderContainer .prodSlider{
-    margin-left: 20px;
+.sliderContainer .prodSlider {
+    margin-left: 25px;
 }
-.sliderContainer .prodSlider .slick-slide{
- padding-left: 15px;
- padding-right: 10px;
+
+.sliderContainer .prodSlider .slick-slide {
+    padding-left: 15px;
+    padding-right: 10px;
 
 }
 
+.row .col-img img {
+    height: 99%;
+    border-radius: 10px;
+    margin-right: 35px;
+}

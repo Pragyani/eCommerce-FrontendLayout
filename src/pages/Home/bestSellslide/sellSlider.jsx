@@ -10,9 +10,9 @@ const Sellslider = () => {
         arrows: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 1,
+        slidesToShow: 4,
         slidesToScroll: 4,
-        fade: true
+        fade: false
     };
     return (
         <>
@@ -39,13 +39,16 @@ const Sellslider = () => {
                     <img src={BannerImg4} alt="banerimg4" />
                 </div>
 
-                    <div className="sliderContainer">
-                        <Slider {...settings} className="home_slider_main">
-                      <Product className="proSection"/>
-                        </Slider>
-                    </div>
+                <div className="sliderContainer">
+                    <Slider {...settings} className="prodSlider">
+                        <Product className="proSection" />
+                        <Product className="proSection" />
+                        <Product className="proSection" />
+                        <Product className="proSection" />
+                    </Slider>
                 </div>
-            
+            </div>
+
         </>
     )
 }

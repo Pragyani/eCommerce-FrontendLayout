@@ -26,7 +26,8 @@
     width: 50%;
     position: relative;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding-top: 6px;
 }
 
 .list-inline li {
@@ -53,4 +54,15 @@
 .homeProduct .productrow .productItem{
     width: 20%;
     padding: 15px 15px;
+}
+
+.list-inline .tag-list{
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+   width: 40%;
+   text-align: center;
+   padding-top: 4px;
+   color: rgb(64, 87, 87);
+   border-radius: 10px;
+   /* font-size: larger; */
+   font-weight:500;
 }

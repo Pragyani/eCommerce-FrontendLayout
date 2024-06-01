@@ -72,7 +72,12 @@
     overflow: hidden;
 }
 
-.sliderContainer .prodSlider .slick-slide{
-    padding-right: 28px;
-  
+.sliderContainer .prodSlider{
+    margin-left: 20px;
 }
+.sliderContainer .prodSlider .slick-slide{
+ padding-left: 15px;
+ padding-right: 10px;
+
+}
+

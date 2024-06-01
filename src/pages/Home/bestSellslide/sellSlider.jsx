@@ -33,7 +33,7 @@ const Sellslider = () => {
                     </li>
                 </ul>
             </div>
-            <br /><br />
+            <br /><br /><br /><br />
             <div className="row">
                 <div className="col-img">
                     <img src={BannerImg4} alt="banerimg4" />
@@ -41,10 +41,10 @@ const Sellslider = () => {
 
                 <div className="sliderContainer">
                     <Slider {...settings} className="prodSlider">
-                        <Product className="proSection" />
-                        <Product className="proSection" />
-                        <Product className="proSection" />
-                        <Product className="proSection" />
+                        <div className="item"><Product className="proSection" /></div>
+                        <div className="item"><Product className="proSection" /></div>
+                        <div className="item"><Product className="proSection" /></div>
+                        <div className="item"><Product className="proSection" /></div>
                     </Slider>
                 </div>
             </div>

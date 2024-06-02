@@ -6,6 +6,7 @@ import Banner from "../../Components/banner/Banner";
 import Product from "../../Components/product/product";
 import Sellslider from "./bestSellslide/sellSlider";
 import ProductSectionlist from "./bestSellslide/productSectionlist";
+import ToProduct from "./topproduct/TopProduct";
 
 const Home = () => {
     return (
@@ -53,6 +54,8 @@ const Home = () => {
                     <Sellslider />
                 </div>
             </section>
+            <ToProduct/>
+            <br /><br /><br /><br /><br />
             <br /><br /><br /><br /><br />
         </>
     )

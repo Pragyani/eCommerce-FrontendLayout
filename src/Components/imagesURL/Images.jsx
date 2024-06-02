@@ -55,3 +55,13 @@ export default logoImg;
  export const BannerImg3= 'https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/banner3.jpg?raw=true';
 
  export const BannerImg4='https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/banner4.jpg?raw=true'
+
+
+
+ //topProductImges
+
+ export const img1 ='https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/thumbnail-2.jpg?raw=true';
+
+ export const img2 ='https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/thumbnail-3.jpg?raw=true';
+
+ export const img3 ='https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/thumbnail-1.jpg?raw=true';

@@ -1,6 +1,6 @@
 import React from "react";
 import './Topproduct.css';
-
+import ProductContent from "./ProductContent";
 
 const ToProduct =()=>{
     return(
@@ -9,19 +9,19 @@ const ToProduct =()=>{
             <div className="container-fluid">
                 <div className="row">
                     <div className="col">
-                        <h3>Top Selling</h3>
+                     <ProductContent title="Top Selling"/>
                     </div>
 
                     <div className="col">
-                        <h3>Trending Product</h3>
+                     <ProductContent title="Recently Added"/>
                     </div>
 
                     <div className="col">
-                        <h3>Recently Added</h3>
+                     <ProductContent title="Trending Products"/>
                     </div>
 
                     <div className="col">
-                        <h3>Top Rated</h3>
+                     <ProductContent title="Top Rated"/>
                     </div>
                 </div>
             </div>

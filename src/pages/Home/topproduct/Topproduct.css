@@ -1,6 +1,7 @@
 .container-fluid {
     padding-left: 35px;
     padding-right: 30px;
+    padding-bottom: 45px;
 }
 
 .container-fluid .row {

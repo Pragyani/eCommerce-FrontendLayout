@@ -38,11 +38,48 @@
     z-index: 10;
 }
 
-.product_box .product_contnt{
+.product_box .product_contnt {
     margin-top: 25px;
 }
 
-.product_contnt .images img{
-    width: 20%;
+.product_contnt .product-items {
+    width:92%;
+    display: flex;
+ border-radius: 10px;
+margin-right:30px;
+background-color: hsl(0, 3%, 93%);
+  
+}
 
+.product_contnt .product-items img {
+    width: 28%;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.product_contnt .product-items .images-info{
+    width: 70%;
+    padding-left: 7px;
+    margin-left: 5px;
+    padding-top: 8px;
+}
+
+.product_contnt .product-items .images-info h4{
+      color:rgb(36, 35, 35);
+}
+
+.product_contnt .product-items .images-info a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.product_contnt .product-items .images-info .info-price-Tg .price-info .prices{
+    padding-right: 5px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    font-family: "Reddit Sans", sans-serif;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    color: #3bb77e;
+    cursor: pointer;
 }

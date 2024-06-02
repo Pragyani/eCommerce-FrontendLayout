@@ -1,9 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
 import './slider.css';
-import Button from '@mui/material/Button';
-import ThumbUpOffAltIcon from '@mui/icons-material/ThumbUpOffAlt';
 import { Slid2, slider1 } from "../../../Components/imagesURL/Images";
+import TextArea from "./input_text/TextArea";
 
 
 const HomeSlider = () => {
@@ -31,7 +30,6 @@ const HomeSlider = () => {
                                 grocery deals
                             </h2>
                             <p>Sign up for the daily newsletter</p>
-
                         </div>
                     </div>
 
@@ -45,16 +43,9 @@ const HomeSlider = () => {
                             </h2>
                             <p>Save up to 50% off on your first order</p>
                         </div>
-
                     </div>
-
                 </Slider>
-
-                <div className="newInputextarea">
-                    <input type="text" placeholder="Your email id/address .." />
-                    <Button className="sub-btn">Subscribe <ThumbUpOffAltIcon className="right-icon" /></Button>
-                </div>
-
+                <TextArea />
             </div>
         </section>
     )

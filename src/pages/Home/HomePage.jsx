@@ -7,6 +7,7 @@ import Product from "../../Components/product/product";
 import Sellslider from "./bestSellslide/sellSlider";
 import ProductSectionlist from "./bestSellslide/productSectionlist";
 import ToProduct from "./topproduct/TopProduct";
+import { LetterImg } from "../../Components/imagesURL/Images";
 
 const Home = () => {
     return (
@@ -55,6 +56,20 @@ const Home = () => {
                 </div>
             </section>
             <ToProduct/>
+
+
+            <section className="LetterSection">
+                <div className="container-fluid">
+                    <div className="box">
+                  <div className="info">
+                     <h4>heo</h4>
+                  </div>
+                  <div className="img">
+                    <img src={LetterImg} alt="" />
+                  </div>
+                    </div>
+                </div>
+            </section>
             <br /><br /><br /><br /><br />
             <br /><br /><br /><br /><br />
         </>

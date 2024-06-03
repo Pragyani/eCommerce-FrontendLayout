@@ -7,7 +7,7 @@ const Footer = () => {
         <>
             <div className="footerWrapper">
                     <div className="footer-container">
-                        <div className="row">
+                        <div className="fotter-row">
                             <div className="col">
                                  <div className="box">
                                     <span><img src={footerIcon1} /></span>

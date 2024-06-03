@@ -70,3 +70,15 @@ export default logoImg;
  //LettersectionImage.
 
  export const LetterImg ='https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/newsletter.png?raw=true';
+
+ //footer imges icon.
+
+ export const footerIcon1 ='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-1.svg';
+
+ export const footerIcon2 ='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-2.svg';
+
+ export const footerIcon3 ='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-3.svg';
+
+ export const footerIcon4='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-4.svg';
+
+ export const footerIcon5='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-5.svg';

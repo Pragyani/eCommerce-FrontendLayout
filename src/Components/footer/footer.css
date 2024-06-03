@@ -1,0 +1,10 @@
+.footer-container{
+    width: 100%;
+}
+.footer-container .row{
+    justify-content: space-around;
+}
+
+.footer-container .col .box{
+    display: flex;
+}

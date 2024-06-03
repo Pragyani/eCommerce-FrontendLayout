@@ -65,3 +65,8 @@ export default logoImg;
  export const img2 ='https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/thumbnail-3.jpg?raw=true';
 
  export const img3 ='https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/thumbnail-1.jpg?raw=true';
+
+ 
+ //LettersectionImage.
+
+ export const LetterImg ='https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/newsletter.png?raw=true';

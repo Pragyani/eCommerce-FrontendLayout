@@ -8,6 +8,7 @@ import Sellslider from "./bestSellslide/sellSlider";
 import ProductSectionlist from "./bestSellslide/productSectionlist";
 import ToProduct from "./topproduct/TopProduct";
 import LetterSection from "./letterSection/LetterSection";
+import Footer from "../../Components/footer/footer";
 
 const Home = () => {
     return (
@@ -51,12 +52,12 @@ const Home = () => {
                             <Product />
                         </div>
                     </div>
-
                     <Sellslider />
                 </div>
             </section>
             <ToProduct />
             <LetterSection/>
+            <Footer/>
 
             <br /><br /><br /><br /><br />
             <br /><br /><br /><br /><br />

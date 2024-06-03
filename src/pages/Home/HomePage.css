@@ -88,3 +88,28 @@
     border-radius: 10px;
     margin-right: 35px;
 }
+
+.LetterSection{
+    width: 100%;
+    height: auto;
+}
+.LetterSection .box{
+    background: url('https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/bg.png?raw=true');
+     width: 100%;
+     height: 25pc;
+     display: flex;
+}
+
+.LetterSection .box .info{
+    width: 50%;
+}
+
+
+.LetterSection .box .img{
+  text-align: end;
+  margin-right: 50px;
+}
+.LetterSection .box .img img{
+    width: 100%;
+    height: 100%
+}

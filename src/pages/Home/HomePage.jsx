@@ -55,18 +55,19 @@ const Home = () => {
                     <Sellslider />
                 </div>
             </section>
-            <ToProduct/>
+            <ToProduct />
 
 
             <section className="LetterSection">
                 <div className="container-fluid">
                     <div className="box">
-                  <div className="info">
-                     <h4>heo</h4>
-                  </div>
-                  <div className="img">
-                    <img src={LetterImg} alt="" />
-                  </div>
+                        <div className="info">
+                            <h2>Stay home & get your daily <br/> needs from our shop</h2>
+                            <p>Start your daily Shopping with Nest Mart</p>
+                        </div>
+                        <div className="img">
+                            <img src={LetterImg} alt="" />
+                        </div>
                     </div>
                 </div>
             </section>

@@ -18,7 +18,7 @@ width: 18%;
     display: flex;
     background-color: #F4F6FA;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .footer-container .col .box span img {
@@ -51,4 +51,17 @@ width: 18%;
 
 .footer-container .col .box:hover img{
     transform: translateY(-10px);
+}
+
+footer{
+    padding: 40px 30px;
+}
+
+.footer-fluid .footer-img a{
+    font-size: 20px;
+}
+
+.footer-fluid .footer-img p{
+    font-size:20px;
+    padding-top: 12px;
 }

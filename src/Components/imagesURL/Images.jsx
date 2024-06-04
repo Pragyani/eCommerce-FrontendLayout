@@ -1,6 +1,6 @@
 
 
-const logoImg = "https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/logo.svg"
+const logoImg = "https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/logo.svg"
 
 export default logoImg;
 

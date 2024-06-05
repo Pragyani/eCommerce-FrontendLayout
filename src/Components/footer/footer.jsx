@@ -29,7 +29,7 @@ const Footer = () => {
 
                             <div className="wid-col">
                                 <h3>Company</h3>
-                                <ul className="foter-wid-list"></ul>
+                                <ul className="foter-wid-list">
                             <li><Link to="#">About US</Link></li>
                             <li><Link to="#">Delicery Info.</Link></li>
                             <li><Link to="#">Privacy Policy</Link></li>
@@ -37,7 +37,7 @@ const Footer = () => {
                             <li><Link to="#">Contact Us</Link></li>
                             <li><Link to="#">Supoort Center</Link></li>
                             <li><Link to="#">Careers</Link></li>
-                            
+                            </ul>
                             </div>
 
 

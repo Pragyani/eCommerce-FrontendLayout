@@ -80,7 +80,7 @@ const Footer = () => {
                                 </ul>
                             </div>
 
-                            <div className="acount-list">
+                            <div className="web-payment-details">
                                 <h3>Install App</h3>
                                 <p>From App Store or Google Play</p>
 
@@ -88,6 +88,7 @@ const Footer = () => {
                                     <Link to="#"><img src={AppStoreimg} alt="" /></Link>
                                     <Link to='#'><img src={GooglePlayimg} alt="" /> </Link>
                                 </div>
+                                <p>Secured Payment Gateway</p>
                             </div>
 
 

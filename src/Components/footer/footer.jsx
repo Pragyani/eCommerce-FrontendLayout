@@ -41,18 +41,32 @@ const Footer = () => {
                             </div>
 
 
-                            <div className="footer-a/c">
+                            <div className="acount-list">
                                 <h3>Account</h3>
                                 <ul className="foter-wid-list">
-                                    <li>Sign in</li>
-                                    <li>View cart</li>
-                                    <li>My Wishlist</li>
-                                    <li>Track My Order</li>
-                                    <li>Help Ticket </li>
-                                    <li>Shipping Details</li>
-                                    <li>Compare Product</li>
+                                    <li><Link to="#">Sign in</Link></li>
+                                    <li><Link to="#">View cart</Link></li>
+                                    <li><Link to="#">My Wishlist</Link></li>
+                                    <li><Link to="#">Track My Order</Link></li>
+                                    <li><Link to="#">Help Ticket </Link></li>
+                                    <li><Link to="#">Shipping Details</Link></li>
+                                    <li><Link to="#">Compare Product</Link></li>
                                 </ul>
                             </div>
+
+                            <div className="acount-list">
+                                <h3>Coprate</h3>
+                                <ul className="foter-wid-list">
+                                    <li><Link to="#">Become a Vender</Link></li>
+                                    <li><Link to="#">Affiliate Program</Link></li>
+                                    <li><Link to="#">Farm Business</Link></li>
+                                    <li><Link to="#">Farm Careers</Link></li>
+                                    <li><Link to="#">Our Suppliers</Link></li>
+                                    <li><Link to="#">Accesibilty</Link></li>
+                                    <li><Link to="#">Promotions</Link></li>
+                                </ul>
+                            </div>
+
 
 
                         </div>

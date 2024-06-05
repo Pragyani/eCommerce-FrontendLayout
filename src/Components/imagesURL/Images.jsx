@@ -82,3 +82,10 @@ export default logoImg;
  export const footerIcon4='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-4.svg';
 
  export const footerIcon5='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-5.svg';
+
+
+//footer download app images.
+
+export const AppStoreimg = 'https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/app-store.jpg';
+
+export const GooglePlayimg ='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/google-play.jpg'

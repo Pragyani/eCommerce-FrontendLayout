@@ -14,6 +14,18 @@ const Footer = () => {
                         <FooterSection />
                     </div>
                 </footer>
+
+                <hr/>
+                <div className="footer-bottom">
+                    <div className="f-bottom">
+                        <div className="footer-cr">
+                            <p>© 2022, <b>Nest</b>- HTML Ecommerce Template <br />All rights reserved </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </>
     )

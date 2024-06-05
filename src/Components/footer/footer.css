@@ -125,7 +125,7 @@ footer {
 }
 
 .footer-fluid .footer-row .acount-list {
-    width: 15%;
+    width: 14%;
     padding-top: 17px;
     padding-left: 9px;
     margin-right: 9px;
@@ -150,4 +150,31 @@ footer {
 
 .footer-fluid .footer-row .acount-list ul li a:hover {
     color: #3bb77e;
+}
+
+.footer-fluid .footer-row .web-payment-details h3 {
+    font-size: 22px;
+    padding-top: 17px;
+    padding-left: 9px;
+    margin-right: 9px;
+}
+
+
+.footer-fluid .footer-row .web-payment-details p {
+    padding-top: 14px;
+    word-spacing: 2px;
+    padding-left: 9px;
+}
+
+.footer-fluid .footer-row .web-payment-details .instll-app {
+    width: 100%;
+
+
+}
+
+.footer-fluid .footer-row .web-payment-details .instll-app a img {
+    width: 35%;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 32px;
 }

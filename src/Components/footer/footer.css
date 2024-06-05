@@ -62,6 +62,20 @@ footer{
 }
 
 .footer-fluid .footer-img p{
-    font-size:20px;
+    font-size:16px;
     padding-top: 12px;
 }
+
+.footer-fluid .footer-img .footer-uicon{
+    /* border:  1px solid black; */
+    margin-right: 3px;
+  height: 21px;
+  color: #3bb77e;
+}
+
+.footer-fluid .footer-img p span{
+    margin-right: 3px;
+    font-family: "Reddit Sans", sans-serif;
+    font-weight: 600;
+}
+

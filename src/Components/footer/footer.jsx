@@ -2,7 +2,7 @@ import React from "react";
 import './footer.css';
 import FooterWrapper from "./footerWapper/FooterWrapper";
 import { Link } from "react-router-dom";
-import logoImg from "../imagesURL/Images";
+import logoImg, { AppStoreimg, GooglePlayimg } from "../imagesURL/Images";
 import PlaceIcon from '@mui/icons-material/Place';
 import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
 import ScheduleSendIcon from '@mui/icons-material/ScheduleSend';
@@ -65,6 +65,29 @@ const Footer = () => {
                                     <li><Link to="#">Accesibilty</Link></li>
                                     <li><Link to="#">Promotions</Link></li>
                                 </ul>
+                            </div>
+
+                            <div className="acount-list">
+                                <h3>Popular</h3>
+                                <ul className="foter-wid-list">
+                                    <li><Link to="#">Milks & Flavoured Milk</Link></li>
+                                    <li><Link to="#">Butter & Margarine</Link></li>
+                                    <li><Link to="#">Eggs Subtitutes</Link></li>
+                                    <li><Link to="#">Marmalades</Link></li>
+                                    <li><Link to="#">Sour Cream and Dips</Link></li>
+                                    <li><Link to="#">Tea & Coffe</Link></li>
+                                    <li><Link to="#">Cheese</Link></li>
+                                </ul>
+                            </div>
+
+                            <div className="acount-list">
+                                <h3>Install App</h3>
+                                <p>From App Store or Google Play</p>
+
+                                <div className="instll-app">
+                                    <Link to="#"><img src={AppStoreimg} alt="" /></Link>
+                                    <Link to='#'><img src={GooglePlayimg} alt="" /> </Link>
+                                </div>
                             </div>
 
 

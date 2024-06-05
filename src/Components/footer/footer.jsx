@@ -2,7 +2,7 @@ import React from "react";
 import './footer.css';
 import FooterWrapper from "./footerWapper/FooterWrapper";
 import { Link } from "react-router-dom";
-import logoImg, { AppStoreimg, GooglePlayimg } from "../imagesURL/Images";
+import logoImg, { AppStoreimg, GooglePlayimg, PaymentGateway } from "../imagesURL/Images";
 import PlaceIcon from '@mui/icons-material/Place';
 import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
 import ScheduleSendIcon from '@mui/icons-material/ScheduleSend';
@@ -88,7 +88,8 @@ const Footer = () => {
                                     <Link to="#"><img src={AppStoreimg} alt="" /></Link>
                                     <Link to='#'><img src={GooglePlayimg} alt="" /> </Link>
                                 </div>
-                                <p>Secured Payment Gateway</p>
+                                <p className="web-p"> Secured Payment Gateway</p>
+                                <img src={PaymentGateway} alt="" />
                             </div>
 
 

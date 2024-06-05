@@ -12,38 +12,52 @@ const Footer = () => {
     return (
         <>
             <div className="footerWrapper">
-                   <FooterWrapper/>
+                <FooterWrapper />
 
-                   <footer>
+                <footer>
                     <div className="footer-fluid">
                         <div className="footer-row">
                             <div className="footer-img">
-                               <Link> <img src={logoImg} alt="" /></Link>
-                               <p>Awesome grocery store website template</p>
-                               <br />
-                               <p><PlaceIcon className="footer-uicon" /><span>Address:</span> 5171 W Campbell Ave <br  /> undefined Kent, Utah 53127 United States</p>
-                               <p><PhoneInTalkIcon className="footer-uicon" /><span>Call Us:</span>(+91) - 540-025-124553</p>
-                               <p><ScheduleSendIcon className="footer-uicon" /><span>Email:</span>sale@Nest.com</p>
-                               <p><AlarmOnIcon className="footer-uicon" /><span>Hours:</span>10:00 - 18:00, Mon - Sat</p>
+                                <Link> <img src={logoImg} alt="" /></Link>
+                                <p>Awesome grocery store website template</p>
+                                <br />
+                                <p><PlaceIcon className="footer-uicon" /><span>Address:</span> 5171 W Campbell Ave <br /> undefined Kent, Utah 53127 United States</p>
+                                <p><PhoneInTalkIcon className="footer-uicon" /><span>Call Us:</span>(+91) - 540-025-124553</p>
+                                <p><ScheduleSendIcon className="footer-uicon" /><span>Email:</span>sale@Nest.com</p>
+                                <p><AlarmOnIcon className="footer-uicon" /><span>Hours:</span>10:00 - 18:00, Mon - Sat</p>
                             </div>
 
                             <div className="wid-col">
                                 <h3>Company</h3>
                                 <ul className="foter-wid-list">
-                            <li><Link to="#">About US</Link></li>
-                            <li><Link to="#">Delicery Info.</Link></li>
-                            <li><Link to="#">Privacy Policy</Link></li>
-                            <li><Link to="#">Terms & Conditions</Link></li>
-                            <li><Link to="#">Contact Us</Link></li>
-                            <li><Link to="#">Supoort Center</Link></li>
-                            <li><Link to="#">Careers</Link></li>
-                            </ul>
+                                    <li><Link to="#">About US</Link></li>
+                                    <li><Link to="#">Delicery Info.</Link></li>
+                                    <li><Link to="#">Privacy Policy</Link></li>
+                                    <li><Link to="#">Terms & Conditions</Link></li>
+                                    <li><Link to="#">Contact Us</Link></li>
+                                    <li><Link to="#">Supoort Center</Link></li>
+                                    <li><Link to="#">Careers</Link></li>
+                                </ul>
                             </div>
 
 
-                        </div> 
+                            <div className="footer-a/c">
+                                <h3>Account</h3>
+                                <ul className="foter-wid-list">
+                                    <li>Sign in</li>
+                                    <li>View cart</li>
+                                    <li>My Wishlist</li>
+                                    <li>Track My Order</li>
+                                    <li>Help Ticket </li>
+                                    <li>Shipping Details</li>
+                                    <li>Compare Product</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
                     </div>
-                   </footer>
+                </footer>
             </div>
         </>
     )

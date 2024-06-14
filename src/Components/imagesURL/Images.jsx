@@ -100,3 +100,7 @@ export const DailCol ="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme
 //footer social icon.
 
 export const fbicon ="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-facebook-white.svg";
+ 
+export const TwitterIcon = "https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-twitter-white.svg";
+
+export const IgIcon = "	https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-instagram-white.svg";

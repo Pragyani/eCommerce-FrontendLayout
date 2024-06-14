@@ -104,3 +104,7 @@ export const fbicon ="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/
 export const TwitterIcon = "https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-twitter-white.svg";
 
 export const IgIcon = "	https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-instagram-white.svg";
+
+export const pinterestIcon ="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-pinterest-white.svg";
+
+export const youTubeIcon = "https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-youtube-white.svg";

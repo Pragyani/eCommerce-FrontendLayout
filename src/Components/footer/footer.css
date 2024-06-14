@@ -285,7 +285,7 @@ hr {
     display: flex;
     justify-content: flex-end;
     margin-top: 13px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .footer-bottom .mobile-social-icon .social-detail a {
@@ -308,4 +308,12 @@ hr {
 
 .footer-bottom .mobile-social-icon .social-detail img {
     max-width: 17px;
+}
+
+.footer-bottom .mobile-social-icon .font{
+    font-weight: 500;
+    font-size: 12px;
+    color: #7E7E7E;
+    text-align: end;
+    letter-spacing: 0.5;
 }

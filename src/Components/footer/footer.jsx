@@ -2,7 +2,8 @@ import React from "react";
 import './footer.css';
 import FooterWrapper from "./footerWapper/FooterWrapper";
 import FooterSection from "./foteerSection/FooterSection";
-import { DailCol } from "../imagesURL/Images";
+import { DailCol, fbicon } from "../imagesURL/Images";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -38,6 +39,14 @@ const Footer = () => {
                                         <span>24/7 Support Center</span>
                                     </p>
                                 </div>
+                            </div>
+                        </div>
+
+                        <div className="mobile-social-icon">
+                            <div className="social-detail">
+                                <h6>Follow Us</h6>
+                                <Link to="#"><img src={fbicon} alt="facebook-icon" /></Link>
+                                <Link to="#"><img src={fbicon} alt="facebook-icon" /></Link>
                             </div>
                         </div>
                     </div>

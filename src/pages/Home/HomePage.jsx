@@ -58,9 +58,7 @@ const Home = () => {
             <ToProduct />
             <LetterSection/>
             <Footer/>
-
-            <br /><br /><br /><br /><br />
-            <br /><br /><br /><br /><br />
+            <br /><br />          
         </>
     )
 }

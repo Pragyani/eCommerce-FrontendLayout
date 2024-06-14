@@ -212,9 +212,13 @@ hr {
     width: 33%;
     margin-left: 20px;
     color: #7E7E7E;
-    font-size: smaller;
-    word-spacing: 3px;
+    font-size: medium;
+    word-spacing: 1px;
     line-height: 24px
+}
+
+.footer-bottom .f-bottom .footer-cr p {
+    margin-top: 12px;
 }
 
 .footer-bottom .f-bottom .footer-cr b {
@@ -265,4 +269,42 @@ hr {
 .footer-bottom .footer-col-dail .col-ii-dail {
     margin-left: 12px;
     margin-right: 12px;
+}
+
+.footer-bottom .mobile-social-icon {
+    margin-left: 6px;
+    margin-right: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 32%;
+    border: 2px solid black;
+
+}
+
+.footer-bottom .mobile-social-icon .social-detail {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+.footer-bottom .mobile-social-icon .social-detail a {
+    width: 27px;
+    height: 27px;
+    font-size: 14px;
+    background-color: #3bb77e;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.footer-bottom .mobile-social-icon .social-detail h6 {
+    margin-right: 12px;
+    padding-top: 2px;
+    font-size: 16px;
+}
+
+.footer-bottom .mobile-social-icon .social-detail img {
+    max-width: 17px;
 }

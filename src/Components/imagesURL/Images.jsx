@@ -96,3 +96,7 @@ export const PaymentGateway ='https://wp.alithemes.com/html/nest/demo/assets/img
 //footer dail image.
 
 export const DailCol ="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/phone-call.svg";
+
+//footer social icon.
+
+export const fbicon ="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-facebook-white.svg";

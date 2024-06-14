@@ -91,3 +91,8 @@ export const AppStoreimg = 'https://wp.alithemes.com/html/nest/demo/assets/imgs/
 export const GooglePlayimg ='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/google-play.jpg'
 
 export const PaymentGateway ='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/payment-method.png';
+
+
+//footer dail image.
+
+export const DailCol ="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/phone-call.svg";

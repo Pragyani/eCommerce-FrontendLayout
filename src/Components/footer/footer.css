@@ -59,7 +59,7 @@ footer {
     padding: 40px 30px;
 }
 
-.footer-fluid{
+.footer-fluid {
     margin-top: 12px;
     padding-left: 32px;
 }
@@ -78,9 +78,10 @@ footer {
     display: flex;
 }
 
-.footer-fluid .footer-img{
+.footer-fluid .footer-img {
     width: 26%;
 }
+
 .footer-fluid .footer-img p {
     font-size: 16px;
     padding-top: 12px;
@@ -134,7 +135,7 @@ footer {
     width: 19%;
     padding-top: 17px;
     padding-left: 9px;
-    margin-right:30px;
+    margin-right: 30px;
 }
 
 .footer-fluid .footer-row .acount-list h3 {
@@ -174,9 +175,10 @@ footer {
 }
 
 
-.footer-fluid .footer-row .web-payment-details img{
+.footer-fluid .footer-row .web-payment-details img {
     width: 39%;
 }
+
 .footer-fluid .footer-row .web-payment-details .instll-app {
     width: 100%;
 }
@@ -186,4 +188,81 @@ footer {
     padding-left: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+hr {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    color: #BCE3C9;
+}
+
+.footer-bottom {
+    width: 100%;
+}
+
+.footer-bottom .f-bottom {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+
+.footer-bottom .f-bottom .footer-cr {
+    width: 33%;
+    margin-left: 20px;
+    color: #7E7E7E;
+    font-size: smaller;
+    word-spacing: 3px;
+    line-height: 24px
+}
+
+.footer-bottom .f-bottom .footer-cr b {
+    color: #3bb77e;
+}
+
+.footer-bottom .footer-col-dail {
+    width: 34%;
+    display: flex;
+}
+
+.footer-bottom .footer-col-dail p {
+    color: #3BB77E;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.footer-bottom .footer-col-dail p span {
+    font-weight: 500;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    color: #7E7E7E;
+    display: block;
+    letter-spacing: 0.5px;
+}
+
+.footer-bottom .footer-col-dail .col-i-dail {
+    display: flex;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    min-width: 200px;
+}
+
+.footer-bottom .footer-col-dail .col-i-dail img {
+    max-width: 36px;
+    opacity: 0.5;
+    margin-right: 15px;
+    margin-left: 14px;
+}
+
+.footer-bottom .footer-col-dail .col-i-dail {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.footer-bottom .footer-col-dail .col-ii-dail {
+    margin-left: 12px;
+    margin-right: 12px;
 }

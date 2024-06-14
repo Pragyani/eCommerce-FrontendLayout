@@ -274,11 +274,11 @@ hr {
 .footer-bottom .mobile-social-icon {
     margin-left: 6px;
     margin-right: 6px;
+    padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
     width: 32%;
-    border: 2px solid black;
-
+    display: block;
 }
 
 .footer-bottom .mobile-social-icon .social-detail {
@@ -297,6 +297,7 @@ hr {
     text-align: center;
     display: inline-flex;
     justify-content: center;
+    margin-right: 7px;
 }
 
 .footer-bottom .mobile-social-icon .social-detail h6 {

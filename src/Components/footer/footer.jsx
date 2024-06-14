@@ -2,7 +2,7 @@ import React from "react";
 import './footer.css';
 import FooterWrapper from "./footerWapper/FooterWrapper";
 import FooterSection from "./foteerSection/FooterSection";
-import { DailCol, IgIcon, TwitterIcon, fbicon } from "../imagesURL/Images";
+import { DailCol, IgIcon, TwitterIcon, fbicon, pinterestIcon, youTubeIcon } from "../imagesURL/Images";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -48,6 +48,8 @@ const Footer = () => {
                                 <Link to="#"><img src={fbicon} alt="facebook-icon" /></Link>
                                 <Link to="#"><img src={TwitterIcon} alt="facebook-icon" /></Link>
                                 <Link to="#"><img src={IgIcon} alt="facebook-icon" /></Link>
+                                <Link to="#"><img src={pinterestIcon} alt="facebook-icon" /></Link>
+                                <Link to="#"><img src={youTubeIcon} alt="facebook-icon" /></Link>
                             </div>
                         </div>
                     </div>

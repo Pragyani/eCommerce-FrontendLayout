@@ -51,6 +51,9 @@ const Footer = () => {
                                 <Link to="#"><img src={pinterestIcon} alt="facebook-icon" /></Link>
                                 <Link to="#"><img src={youTubeIcon} alt="facebook-icon" /></Link>
                             </div>
+                            <p className="font">
+                                Up to 15% discount on your First Subscription
+                            </p>
                         </div>
                     </div>
                 </div>

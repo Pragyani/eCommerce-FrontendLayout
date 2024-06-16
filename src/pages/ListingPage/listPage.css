@@ -1,0 +1,13 @@
+.listingPAge{
+    width: 100%;
+    height: auto;
+    padding: 45px 0px ;
+}
+
+.listingPAge .listing-header{
+    width: 100%;
+    height: auto;
+    padding: 45px 25px ;
+    background: #d8f1e5;
+    border-radius: 20px;
+}

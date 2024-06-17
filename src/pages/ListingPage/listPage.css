@@ -15,29 +15,40 @@
 .listingPAge .listing-header h1 {
     color: black;
     opacity: 0.8;
-    font-weight: 450;
-    font-size: 50px;
+    font-weight: 400;
+    font-size: 53px;
     padding-bottom: 7px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
-.listing-header ul{
+.listing-header ul {
+    width: 100%;
     display: flex;
     list-style: none;
     transition: all 0.3s ease-in-out;
+    justify-content: flex-end;
+    padding-right: 50px;
 }
-.listing-header ul li a{
+
+.listing-header ul li a {
     color: black;
     padding-left: 7px;
     padding-right: 10px;
     text-decoration: none;
-    font-size: small;
-    font-weight: bold;
+    font-size: medium;
+    font-weight: 400;
 }
-.listing-header ul li .arrow{
+
+.listing-header ul li a:hover {
+    color: #3BB77E;
+}
+
+.listing-header ul li .arrow {
     padding-top: 12px;
 }
 
-.listing-header ul li .arro{
+.listing-header ul li .arro {
     padding-top: 10px;
- color: #3BB77E;
+    color: #3BB77E;
 }

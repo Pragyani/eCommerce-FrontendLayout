@@ -159,3 +159,26 @@
     color: #3BB77E;
     font-weight: 600;
 }
+
+.slideBar .caption{
+    padding: 25px 0px;
+}
+
+.caption ul li{
+    width: 100%;
+    list-style: none;
+    color: rgba(17, 17, 17, 0.635);
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.caption h5{
+    font-size:14px;
+    margin-left: 14px;
+    color: rgba(58, 53, 53, 0.546);
+    font-weight:800;
+}
+
+.caption li .clr{
+    color: #5cb68cfc;
+}

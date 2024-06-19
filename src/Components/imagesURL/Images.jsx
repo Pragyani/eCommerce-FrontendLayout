@@ -108,3 +108,16 @@ export const IgIcon = "	https://wp.alithemes.com/html/nest/demo/assets/imgs/them
 export const pinterestIcon ="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-pinterest-white.svg";
 
 export const youTubeIcon = "https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-youtube-white.svg";
+
+
+// listing item images
+
+export  const CardImg='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-1.svg';
+
+export const CardImg2='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-2.svg';
+
+export const CardImg3='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-3.svg';
+
+export const CardImg4 ='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-4.svg';
+
+export const CardImg5='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-4.svg';

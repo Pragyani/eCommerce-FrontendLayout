@@ -103,7 +103,7 @@
     display: flex;
     align-items: center;
     border: 1px solid rgba(0, 0, 0, 0.103);
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 1px;
     cursor: pointer;
     margin: 10px 0px;
@@ -161,7 +161,7 @@
 }
 
 .slideBar .caption{
-    padding: 25px 0px;
+    padding-top:20px;
 }
 
 .caption ul li{
@@ -180,5 +180,27 @@
 }
 
 .caption li .clr{
-    color: #5cb68cfc;
+    color: #498f6efc;
+}
+
+.card .filterPart{
+    text-align: end;
+}
+.card a{
+    text-decoration: none;;
+}
+
+.card .fltr{
+    color: white;
+    font-size: 10px;
+    background-color: #3BB77E;
+    padding-left: 6px;
+}
+
+.card .fltr:hover{
+    background-color: rgb(219, 219, 172);
+    color: black;
+}
+.card .fltr-icon{
+    font-size: 12px;
 }

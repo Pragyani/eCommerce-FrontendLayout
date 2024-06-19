@@ -1,12 +1,13 @@
 import React from "react";
 import { CardImg } from "../imagesURL/Images";
 import Slider from '@mui/material/Slider';
+import Checkbox from '@mui/material/Checkbox';
 
 
 function valuetext(value) {
     return `${value}°C`;
 }
-
+const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 const SideBar = () => {
 
@@ -78,7 +79,15 @@ const SideBar = () => {
                         <span>To: <strong className="txt">${[value[1]]}</strong></span>
                     </div>
 
-                
+                    <div className="caption">
+                        <h5>Item Condition</h5>
+
+                        <ul>
+                            <li> <Checkbox {...label}  className="clr"/>New (1506)</li>
+                            <li> <Checkbox {...label} className="clr"/>Refurbised (27)</li>
+                            <li> <Checkbox {...label} className="clr"/>Used (45)</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </>

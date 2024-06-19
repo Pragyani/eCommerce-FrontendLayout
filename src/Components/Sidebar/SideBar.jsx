@@ -1,7 +1,20 @@
 import React from "react";
 import { CardImg } from "../imagesURL/Images";
+import Slider from '@mui/material/Slider';
+
+
+function valuetext(value) {
+    return `${value}°C`;
+}
+
 
 const SideBar = () => {
+
+    const [value, setValue] = React.useState([20, 37]);
+
+    const handleChange = (event, newValue) => {
+        setValue(newValue);
+    }
     return (
         <>
             <div className="slideBar">
@@ -44,6 +57,17 @@ const SideBar = () => {
                             <span className="card-quan" >3</span>
                         </div>
                     </div>
+                </div>
+
+                <div className="card">
+                    <h3>Fill By Price</h3>
+                    <Slider
+                        getAriaLabel={() => 'Temperature range'}
+                        value={value}
+                        onChange={handleChange}
+                        valueLabelDisplay="auto"
+                        getAriaValueText={valuetext}
+                    />
                 </div>
             </div>
         </>

@@ -2,9 +2,10 @@ import React from "react";
 import Slider from '@mui/material/Slider';
 import CardData from "./CardData";
 import ItemSelection from "./itemSelection";
+import SideImgDetail from "./sideImgDetail/SideDownDetail";
 
 
-function valuetext(value) {return `${value}°C`};
+function valuetext(value) { return `${value}°C` };
 
 const SideBar = () => {
 
@@ -38,10 +39,9 @@ const SideBar = () => {
                         <span>From: <strong className="txt">${[value[0]]}</strong></span>
                         <span>To: <strong className="txt">${[value[1]]}</strong></span>
                     </div>
-
                     <ItemSelection />
-
                 </div>
+                <SideImgDetail />
             </div>
         </>
     )

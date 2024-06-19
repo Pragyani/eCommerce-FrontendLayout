@@ -26,8 +26,10 @@
   font-size: 16px;
 }
 
+/*  rgba(0, 0, 0, 0.23) */   
+/*  rgba(0, 0, 0, 0.16) */
 .productThumb:hover {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px #7cd7ab, 0 3px 6px #7cd7ab;
 
 }
 

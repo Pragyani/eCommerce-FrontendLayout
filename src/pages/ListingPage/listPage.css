@@ -90,7 +90,7 @@
 .datarow-col .slideBar .card {
     padding: 25px;
     border-radius: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 
 }
 
@@ -203,4 +203,30 @@
 }
 .card .fltr-icon{
     font-size: 12px;
+}
+
+.sidedownImg{
+    width: 100%;
+    height: 30%;
+    position: relative;
+}
+.sidedownImg img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #dad8d8;
+}
+
+.sidedownImg .DownImg-text{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.DownImg-text span{
+    color: #adadad; 
+
+}
+
+.DownImg-text .strong-text{
+    color: #3BB77E;
 }

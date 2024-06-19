@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import SideBar from "../../Components/Sidebar/SideBar";
+import Product from "../../Components/product/product";
 
 const ListingPage = () => {
     return (
@@ -27,23 +28,51 @@ const ListingPage = () => {
                     </div>
 
                     <div className="listing-data">
-                        <div className="data-row">
+                        <div className="row">
                             <div className="datarow-col">
                                 <SideBar />
                             </div>
 
-                            <div className="row-col">
-
+                            <div className="row-col homeProduct ">
+                                <div className="productrow">
+                                    <div className="productItem">
+                                        <Product />
+                                    </div>
+                                    <div className="productItem">
+                                        <Product />
+                                    </div>
+                                    <div className="productItem">
+                                        <Product />
+                                    </div>
+                                    <div className="productItem">
+                                        <Product />
+                                    </div>
+                                    <div className="productItem">
+                                        <Product />
+                                    </div>
+                                    <div className="productItem">
+                                        <Product />
+                                    </div>
+                                    <div className="productItem">
+                                        <Product />
+                                    </div>
+                                    <div className="productItem">
+                                        <Product />
+                                    </div>
+                                    <div className="productItem">
+                                        <Product />
+                                    </div>
+                                    <div className="productItem">
+                                        <Product />
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
                     </div>
-
-
                 </div>
             </section>
         </>
     )
 }
-
 export default ListingPage;

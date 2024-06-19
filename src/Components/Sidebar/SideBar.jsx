@@ -62,12 +62,23 @@ const SideBar = () => {
                 <div className="card">
                     <h3>Fill By Price</h3>
                     <Slider
+                        min={0}
+                        step={1}
+                        max={2000}
                         getAriaLabel={() => 'Temperature range'}
                         value={value}
                         onChange={handleChange}
                         valueLabelDisplay="auto"
                         getAriaValueText={valuetext}
+                        color="success"
                     />
+
+                    <div className="priceRange">
+                        <span>From: <strong className="txt">${[value[0]]}</strong></span>
+                        <span>To: <strong className="txt">${[value[1]]}</strong></span>
+                    </div>
+
+                
                 </div>
             </div>
         </>

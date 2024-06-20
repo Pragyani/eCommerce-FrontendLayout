@@ -125,3 +125,8 @@ export const CardImg5='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme
 //sideBarImg
 
 export const SideBarImage = 'https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-11.png';
+
+
+//404 Page image
+
+export const Page404 = 'https://wp.alithemes.com/html/nest/demo/assets/imgs/page/page-404.png';

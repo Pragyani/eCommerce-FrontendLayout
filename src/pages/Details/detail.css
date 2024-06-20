@@ -1,0 +1,42 @@
+.breadcrumb {
+    width: 100%;
+    padding: 14px;
+    border-bottom: 1px solid #ececec;
+    color: #7E7E7E;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.breadcrumb .crumb-nav {
+    width: 35%;
+}
+
+.breadcrumb .crumb-nav ul {
+    display: flex;
+    padding-top: 2px;
+}
+
+.breadcrumb .crumb-nav ul a {
+    text-decoration: none;
+    color: #3BB77E;
+    transition: all 0.3s ease;
+}
+
+.breadcrumb .crumb-nav ul a:hover {
+    color: #ffc107;
+}
+
+.breadcrumb .crumb-nav ul a .i {
+    font-size: 20px;
+    padding-right: 8px;
+}
+
+.breadcrumb .crumb-nav ul li {
+    list-style: none;
+    padding-left: 50px;
+    display: flex;
+}
+
+.breadcrumb .crumb-nav ul li .arrow {
+    padding-left: 8px;
+}

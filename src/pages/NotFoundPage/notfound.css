@@ -1,0 +1,78 @@
+.notfound{
+    width: 100%;
+    height: auto;
+    padding: 45px 0px ;
+}
+
+.notfound .box{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.notfound .box img{
+    max-width: 300px;
+}
+
+.notfound .box h1{
+    font-size: 75px;
+    color: #253D4E;
+    opacity: 0.9;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.notfound .box p{
+    font-size: 19px;
+    font-weight: 400;
+    color: #7E7E7E;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.notfound .box p a{
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #3BB77E;
+}
+
+.notfound .box p a:hover{
+     color: rgb(216, 165, 63);
+}
+
+.backHome{
+    margin-top: 60px;
+}
+.backHome a{
+    text-decoration: none;
+
+}
+
+.backHome .btn-home{
+    background-color: #3BB77E;
+    padding: 12px 25px;
+    font-size: 14px;
+    font-weight: 530;
+    color: white;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+}
+
+.backHome .btn-home:hover{
+background-color:rgb(216, 165, 63) ;
+color: #253D4E;
+}
+
+.backHome .btn-home .i{
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 2px;
+  
+}
+
+.backHome .btn-home .arrow{
+    margin-left: 12px;
+}

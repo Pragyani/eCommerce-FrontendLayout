@@ -1,6 +1,6 @@
 .breadcrumb {
     width: 100%;
-    padding: 14px;
+    padding: 10px;
     border-bottom: 1px solid #ececec;
     color: #7E7E7E;
     font-size: 14px;
@@ -13,17 +13,17 @@
 
 .breadcrumb .crumb-nav ul {
     display: flex;
-    padding-top: 2px;
+    padding-top: 5px;
 }
 
 .breadcrumb .crumb-nav ul a {
     text-decoration: none;
-    color: #3BB77E;
+    color: #2ab273;
     transition: all 0.3s ease;
 }
 
 .breadcrumb .crumb-nav ul a:hover {
-    color: #ffc107;
+    color: #ecb307;
 }
 
 .breadcrumb .crumb-nav ul a .i {
@@ -38,5 +38,6 @@
 }
 
 .breadcrumb .crumb-nav ul li .arrow {
-    padding-left: 8px;
+    padding-left: 7px;
+    padding-bottom: 4px;
 }

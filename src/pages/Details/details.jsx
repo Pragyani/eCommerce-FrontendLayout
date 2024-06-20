@@ -24,9 +24,11 @@ const DetailPage = () => {
 
                     <div className="row">
                         <div className="col-p1">
-                            <div className="row">
+                            <div className="rows">
                                 <div className="col-productZoom">
-
+                                    <div className="productZoom">
+                                        <InnerImageZoom zoomType='hover' className="imgsrc" zoomScale={2} src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-16-2.jpg" />
+                                    </div>
                                 </div>
 
                                 <div className="col-productInfo">
@@ -45,7 +47,6 @@ const DetailPage = () => {
 
                         </div>
                     </div>
-
                 </div>
             </div>
         </>

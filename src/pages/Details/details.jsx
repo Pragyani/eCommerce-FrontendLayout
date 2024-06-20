@@ -32,12 +32,19 @@ const DetailPage = () => {
                                 </div>
 
                                 <div className="col-productInfo">
-                                    <h1>Seeds of Change Organic Quinoa, Brown   </h1>
-                                    <Rating name="half-rating-read" defaultValue={3.0} precision={0.5} readOnly />
-                                    <div className="priceSec">
-                                        <span className="text-g">$38</span>
+                                    <div className="productInfo">
+                                        <h1>Seeds of Change Organic <br /> Quinoa, Brown   </h1>
+                                        <div className="compreRating">
+                                            <Rating name="half-rating-read" defaultValue={3.0} precision={0.5} readOnly />
+                                            <h6>(32 review)</h6>
+                                        </div>
+
+                                        <div className="priceSec">
+                                            <span className="text-g">$38</span>
+                                        </div>
+
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, <br /> corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum <br /> eligendi.</p>
                                     </div>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi.</p>
                                 </div>
                             </div>
 

@@ -5,9 +5,22 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import Rating from '@mui/material/Rating';
 import InnerImageZoom from "react-inner-image-zoom";
 import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
-
+import Slider from "react-slick";
+import { productdelImage } from "../../Components/imagesURL/Images";
 const DetailPage = () => {
+    
+    var settings = {
+        dots: true,
+        arrows: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true
+    };
+
     return (
+
         <>
             <div className="detailed-page">
                 <div className="contaier-fluid">
@@ -27,8 +40,10 @@ const DetailPage = () => {
                             <div className="rows">
                                 <div className="col-productZoom">
                                     <div className="productZoom">
-                                        <InnerImageZoom zoomType='hover' className="imgsrc" zoomScale={2} src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-16-2.jpg" />
+                                        <InnerImageZoom zoomType='hover' className="imgsrc" zoomScale={2} src={productdelImage} />
                                     </div>
+
+                                    <Slider {...settings} className="zoomSlider"></Slider>
                                 </div>
 
                                 <div className="col-productInfo">

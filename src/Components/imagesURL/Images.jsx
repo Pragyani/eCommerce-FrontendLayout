@@ -130,3 +130,7 @@ export const SideBarImage = 'https://wp.alithemes.com/html/nest/demo/assets/imgs
 //404 Page image
 
 export const Page404 = 'https://wp.alithemes.com/html/nest/demo/assets/imgs/page/page-404.png';
+
+//product image
+
+export const productdelImage = "https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-16-2.jpg"

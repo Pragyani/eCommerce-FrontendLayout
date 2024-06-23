@@ -5,22 +5,10 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import Rating from '@mui/material/Rating';
 import InnerImageZoom from "react-inner-image-zoom";
 import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
-import Slider from "react-slick";
 import { productdelImage } from "../../Components/imagesURL/Images";
+
 const DetailPage = () => {
-    
-    var settings = {
-        dots: true,
-        arrows: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        fade: true
-    };
-
     return (
-
         <>
             <div className="detailed-page">
                 <div className="contaier-fluid">
@@ -42,9 +30,8 @@ const DetailPage = () => {
                                     <div className="productZoom">
                                         <InnerImageZoom zoomType='hover' className="imgsrc" zoomScale={2} src={productdelImage} />
                                     </div>
-
-                                    <Slider {...settings} className="zoomSlider"></Slider>
                                 </div>
+
 
                                 <div className="col-productInfo">
                                     <div className="productInfo">
@@ -59,16 +46,28 @@ const DetailPage = () => {
                                         </div>
 
                                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, <br /> corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum <br /> eligendi.</p>
+
+                                        <div className="productSize">
+                                            <div className="pro-size">Size / Weight :</div>
+
+                                            <ul className="amount-list">
+                                                <li className="g-list">50g</li>
+                                                <li className="g-list">80g</li>
+                                                <li className="g-list">90g</li>
+                                                <li className="g-list">100g</li>
+                                                <li className="g-list">150g</li>
+                                            </ul>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
 
                         </div>
-
-                        <div className="col-p2">
-
-                        </div>
                     </div>
+
+
+
                 </div>
             </div>
         </>

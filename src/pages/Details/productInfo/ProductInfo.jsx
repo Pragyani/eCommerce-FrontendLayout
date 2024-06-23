@@ -7,7 +7,6 @@ import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 
 const ProductInfo = () => {
-
     const [inputValue, setInputValue] = useState(0);
 
     const add = () => { setInputValue(inputValue + 1) }
@@ -48,9 +47,15 @@ const ProductInfo = () => {
                             <span className="arrow subt" onClick={subt}><KeyboardArrowDownOutlinedIcon /></span>
                         </div>
                         <Button className="btn-g">Add to Cart</Button>
-                        <Button className="btn-g"><FavoriteBorderOutlinedIcon/></Button>
-                        <Button className="btn-g"><CompareArrowsIcon/> </Button>
+                        <Button className="btn-g btn-border"><FavoriteBorderOutlinedIcon /></Button>
+                        <Button className="btn-g btn-border"><CompareArrowsIcon /> </Button>
                     </div>
+
+                    <ul className="product-type">
+                        <li className="pro-type">Type: <span>Organic</span></li>
+                        <li className="pro-type">MFG: <span>JUN 4,2022</span></li>
+                        <li className="pro-type">LIFE: <span>70 days</span></li>
+                    </ul>
                 </div>
             </div>
         </>

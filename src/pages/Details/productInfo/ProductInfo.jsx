@@ -3,14 +3,16 @@ import Rating from '@mui/material/Rating';
 import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutlined';
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
 import { Button } from "@mui/material";
+import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
+import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 
 const ProductInfo = () => {
 
-const [inputValue, setInputValue] = useState(0);
+    const [inputValue, setInputValue] = useState(0);
 
-const add =()=>{ setInputValue(inputValue+1) }
+    const add = () => { setInputValue(inputValue + 1) }
 
-const subt =()=>{ if(inputValue!==0){ setInputValue(inputValue-1) }}
+    const subt = () => { if (inputValue !== 0) { setInputValue(inputValue - 1) } }
 
     return (
         <>
@@ -42,11 +44,12 @@ const subt =()=>{ if(inputValue!==0){ setInputValue(inputValue-1) }}
                     <div className="addCartSection">
                         <div className="counterSec">
                             <input type="number" value={inputValue} />
-                           <span className="arrow add" onClick={add}><KeyboardArrowUpOutlinedIcon/></span>
-                           <span className="arrow subt" onClick={subt}><KeyboardArrowDownOutlinedIcon/></span>
+                            <span className="arrow add" onClick={add}><KeyboardArrowUpOutlinedIcon /></span>
+                            <span className="arrow subt" onClick={subt}><KeyboardArrowDownOutlinedIcon /></span>
                         </div>
-
-                      
+                        <Button className="btn-g">Add to Cart</Button>
+                        <Button className="btn-g"><FavoriteBorderOutlinedIcon/></Button>
+                        <Button className="btn-g"><CompareArrowsIcon/> </Button>
                     </div>
                 </div>
             </div>

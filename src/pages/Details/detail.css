@@ -62,10 +62,10 @@
 
 .col-productZoom .imgsrc {
     width: 100%;
-   border-radius: 5px;
+    border-radius: 5px;
 }
 
-.productZoom{
+.productZoom {
     width: 100%;
     height: auto;
     padding: 10px;
@@ -75,63 +75,64 @@
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.23), 0 1px 2px rgba(0, 0, 0, 0.16);
 }
 
-.col-productInfo{
+.col-productInfo {
     height: 110%;
     width: 100%;
 
 }
 
-.productInfo{
+.productInfo {
     padding-top: 8px;
 }
 
-.col-productInfo h1{
+.col-productInfo h1 {
     font-size: 40px;
     font-weight: 570;
 }
 
-.col-productInfo .productInfo .compreRating{
+.col-productInfo .productInfo .compreRating {
     margin-top: 8px;
     margin-bottom: 8px;
     display: flex;
 }
 
-.col-productInfo .productInfo .compreRating h6{
+.col-productInfo .productInfo .compreRating h6 {
     padding-top: 5px;
     padding-left: 10px;
     font-size: 13px;
     color: #B6B6B6;
 }
 
-.col-productInfo .productInfo .priceSec{
+.col-productInfo .productInfo .priceSec {
     margin: 15px 0 30px 0;
 }
-.col-productInfo .productInfo .priceSec .text-g{
+
+.col-productInfo .productInfo .priceSec .text-g {
     font-size: 60px;
     font-weight: 700;
     color: #2ab273;
 
 }
 
-.col-productInfo .productInfo p{
+.col-productInfo .productInfo p {
     margin-bottom: 30px;
     font-size: 17px;
     color: #7E7E7E;
 }
 
-.productSize{
+.productSize {
     display: flex;
     margin-bottom: 20px;
 }
 
-.productSize .pro-size{
+.productSize .pro-size {
     font-size: smaller;
 }
 
-.productSize ul{
-     display: flex;
-     list-style: none;
-     font-size: smaller;
+.productSize ul {
+    display: flex;
+    list-style: none;
+    font-size: smaller;
 }
 
 .productSize ul li {
@@ -140,12 +141,12 @@
     transition: all 0.3s ease-in;
 }
 
-.productSize ul li:hover{
+.productSize ul li:hover {
     color: #0e804b;
     transform: scale(1.3);
 }
 
-.addCartSection{
+.addCartSection {
     width: 100%;
     height: auto;
     display: flex;
@@ -154,22 +155,23 @@
     align-items: center;
 }
 
-.addCartSection .counterSec{
+.addCartSection .counterSec {
     align-items: center;
     width: 100px;
     height: 50px;
     border-radius: 10px;
-    border:  1px solid #2ab273;
+    border: 1px solid #2ab273;
     overflow: hidden;
+    margin-right: 13px;
 }
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
-.addCartSection .counterSec input{
+.addCartSection .counterSec input {
     width: 60px;
     height: 40px;
     border: 0px;
@@ -177,7 +179,7 @@ input::-webkit-inner-spin-button {
     outline: none;
     text-align: center;
     cursor: pointer;
-    font-size:18px;
+    font-size: 18px;
     padding-top: 14px;
 }
 
@@ -185,16 +187,39 @@ input::-webkit-inner-spin-button {
     position: relative;
 }
 
-.addCartSection .counterSec .arrow{
+.addCartSection .counterSec .arrow {
     position: absolute;
     cursor: pointer;
 }
-.addCartSection .counterSec .arrow.add{
+
+.addCartSection .counterSec .arrow.add {
     top: -1px;
     right: 10px;
 }
 
-.addCartSection .counterSec .arrow.subt{
+.addCartSection .counterSec .arrow.subt {
     bottom: -2px;
     right: 10px;
+}
+
+.addCartSection .btn-g {
+    padding: 8px;
+    background-color: #2ab273;
+    color: white;
+    font-weight: 550;
+    font-size: 16px;
+    margin-left: 6px;
+}
+
+.addCartSection button {
+    height: 60px;
+}
+
+.addCartSection button svg {
+    font-size: 20px;
+}
+
+.addCartSection .btn-g:hover {
+    color: white;
+    background-color: #e6c45f;
 }

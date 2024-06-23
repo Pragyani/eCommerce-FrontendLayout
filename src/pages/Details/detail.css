@@ -49,7 +49,7 @@
 
 .col-p1 {
     width: 90%;
-    padding: 90px 100px;
+    padding: 50px 50px;
 }
 
 .rows {
@@ -117,4 +117,29 @@
     margin-bottom: 30px;
     font-size: 17px;
     color: #7E7E7E;
+}
+
+.productSize{
+    display: flex;
+}
+
+.productSize .pro-size{
+    font-size: smaller;
+}
+
+.productSize ul{
+     display: flex;
+     list-style: none;
+     font-size: smaller;
+}
+
+.productSize ul li {
+    padding-left: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.productSize ul li:hover{
+    color: #0e804b;
+    transform: scale(1.3);
 }

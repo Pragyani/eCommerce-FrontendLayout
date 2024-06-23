@@ -121,6 +121,7 @@
 
 .productSize{
     display: flex;
+    margin-bottom: 20px;
 }
 
 .productSize .pro-size{
@@ -142,4 +143,58 @@
 .productSize ul li:hover{
     color: #0e804b;
     transform: scale(1.3);
+}
+
+.addCartSection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    align-items: center;
+}
+
+.addCartSection .counterSec{
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border:  1px solid #2ab273;
+    overflow: hidden;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.addCartSection .counterSec input{
+    width: 60px;
+    height: 40px;
+    border: 0px;
+    padding: 5px;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    font-size:18px;
+    padding-top: 14px;
+}
+
+.addCartSection .counterSec {
+    position: relative;
+}
+
+.addCartSection .counterSec .arrow{
+    position: absolute;
+    cursor: pointer;
+}
+.addCartSection .counterSec .arrow.add{
+    top: -1px;
+    right: 10px;
+}
+
+.addCartSection .counterSec .arrow.subt{
+    bottom: -2px;
+    right: 10px;
 }

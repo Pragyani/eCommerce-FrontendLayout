@@ -49,7 +49,7 @@
 
 .col-p1 {
     width: 90%;
-    padding: 50px 50px;
+    padding: 24px 100px;
 }
 
 .rows {
@@ -153,6 +153,7 @@
     padding-top: 4px;
     padding-bottom: 4px;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .addCartSection .counterSec {
@@ -222,4 +223,33 @@ input::-webkit-inner-spin-button {
 .addCartSection .btn-g:hover {
     color: white;
     background-color: #e6c45f;
+}
+
+.btn-g.btn-border {
+    border: 1px solid rgb(224, 221, 221);
+    background: none;
+    color: #989898;
+}
+
+.btn-g.btn-border:hover {
+    background-color: #2ab273;
+    color: #fff;
+}
+
+.product-type{
+    margin-left: 11px;
+}
+
+.pro-type {
+    font-size: small;
+    font-weight: 350;
+    color: #7E7E7E;
+    margin-bottom: 10px;
+}
+
+.pro-type span {
+    color: #2ab273;
+    font-size: 12.6px;
+    font-weight: 450;
+    cursor: pointer;
 }

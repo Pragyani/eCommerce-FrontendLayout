@@ -6,6 +6,7 @@ import InnerImageZoom from "react-inner-image-zoom";
 import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
 import { productdelImage } from "../../Components/imagesURL/Images";
 import ProductInfo from "./productInfo/ProductInfo";
+import ProductDescription from "./productDescription/ProductDescription";
 
 const DetailPage = () => {
     return (
@@ -22,7 +23,6 @@ const DetailPage = () => {
                         </div>
                     </div>
 
-
                     <div className="row">
                         <div className="col-p1">
                             <div className="rows">
@@ -31,15 +31,11 @@ const DetailPage = () => {
                                         <InnerImageZoom zoomType='hover' className="imgsrc" zoomScale={2} src={productdelImage} />
                                     </div>
                                 </div>
-     
-                                <ProductInfo/>
+                                <ProductInfo />
                             </div>
-
                         </div>
                     </div>
-
-
-
+                    <ProductDescription />
                 </div>
             </div>
         </>

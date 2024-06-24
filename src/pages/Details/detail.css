@@ -253,3 +253,44 @@ input::-webkit-inner-spin-button {
     font-weight: 450;
     cursor: pointer;
 }
+
+.detailPageTab{
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 84%;
+    margin-left: 100px;
+    border: 1px solid #ececec;
+    border-radius: 15px;
+    padding: 40px 50px;
+   
+}
+
+.descriptionTab:hover{
+    color: #2ab273;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.descriptionTab h3{
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.detailPageTab .descriptnPara{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 50px;
+    line-height: 24px;
+    margin-bottom: 25px;
+    color: #7E7E7E;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+hr{
+    color:#ececec ;
+    opacity: .35;
+}

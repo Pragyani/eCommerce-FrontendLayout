@@ -19,12 +19,12 @@ function App() {
 
   const getData = async (url) => {
     try {
-      const res = await axios('http://localhost:3000/cartItems');
+      const res = await axios('http://localhost:3000/productData');
       setProductData(res.data);
       console.log(res.data);
 
     } catch (error) {
-      console.log("erorr")
+      console.log("erorr "+ error.message)
     }
   }
   return (

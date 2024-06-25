@@ -10,41 +10,39 @@ import NotFound from './pages/NotFoundPage/NotFoundPage';
 import DetailPage from './pages/Details/details';
 import axios from 'axios';
 
-
 function App() {
-
   const [productData, setProductData] = useState([]);
 
   useEffect(() => {
     getData()
   }, []);
 
-  const getData = async(url)=>{
-    try{
-      const res = await axios('http://localhost:3000/productData');
+  const getData = async (url) => {
+    try {
+      const res = await axios('http://localhost:3000/cartItems');
+      setProductData(res.data);
       console.log(res.data);
 
-    }catch(error){
-      console.log(error.message)
+    } catch (error) {
+      console.log("erorr")
     }
-  } 
+  }
   return (
     <>
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route exact={true} path='/' element={<Home />} />
-          <Route exact={true} path='/listingPage' element={<ListingPage />} />
-          <Route exact={true} path='/product/details' element={<DetailPage />} />
-          <Route exact={true} path='/about' element={<About />} />
-          <Route exact={true} path='*' element={<NotFound />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+      {productData.length !== 0 &&
+        <BrowserRouter>
+          <Header />
+          <Routes>
+            <Route exact={true} path='/' element={<Home />} />
+            <Route exact={true} path='/listingPage' element={<ListingPage />} />
+            <Route exact={true} path='/product/details' element={<DetailPage />} />
+            <Route exact={true} path='/about' element={<About />} />
+            <Route exact={true} path='*' element={<NotFound />} />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      }
     </>
   );
 }
-
 export default App;
-
-

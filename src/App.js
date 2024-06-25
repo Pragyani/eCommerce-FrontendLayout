@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import Header from './Components/header/header';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -12,6 +12,8 @@ import axios from 'axios';
 
 
 function App() {
+
+  const [productData, setProductData] = useState([]);
 
   useEffect(() => {
     getData()

@@ -23,7 +23,8 @@
 }
 
 .list-i .list-inline {
-    width: 50%;
+    width: 140%;
+    text-align: center;
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -35,8 +36,11 @@
     font-family: "Reddit Sans", sans-serif;
     font-size: large;
     cursor: pointer;
-    padding-left: 10px;
+    padding-left:4px;
+    text-transform: capitalize;
     color: rgb(64, 87, 87);
+    width: auto;
+    text-align: center;
 }
 
 

@@ -21,19 +21,22 @@ function App() {
     try {
       const res = await axios('http://localhost:3000/productData');
       setProductData(res.data);
+
       console.log(res.data);
+     
 
     } catch (error) {
       console.log("erorr "+ error.message)
     }
   }
+
   return (
     <>
       {productData.length !== 0 &&
         <BrowserRouter>
           <Header />
           <Routes>
-            <Route exact={true} path='/' element={<Home />} />
+            <Route exact={true} path='/' element={<Home products={productData}/>} />
             <Route exact={true} path='/listingPage' element={<ListingPage />} />
             <Route exact={true} path='/product/details' element={<DetailPage />} />
             <Route exact={true} path='/about' element={<About />} />

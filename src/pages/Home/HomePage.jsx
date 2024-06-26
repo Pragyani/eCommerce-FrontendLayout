@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './HomePage.css';
 import HomeSlider from "./slider/slider";
 import SemiSlider from "../../Components/semiSlider/semiSlid";
@@ -9,7 +9,10 @@ import ProductSectionlist from "./bestSellslide/productSectionlist";
 import ToProduct from "./topproduct/TopProduct";
 import LetterSection from "./letterSection/LetterSection";
 
-const Home = () => {
+const Home = (props) => {
+
+    const { products } = props;
+
     return (
         <>
             <HomeSlider />
@@ -17,7 +20,8 @@ const Home = () => {
             <Banner />
             <section className="homeProduct">
                 <div className="home-Container">
-                    <ProductSectionlist />
+
+                    <ProductSectionlist product={products} />
 
                     <div className="productrow">
                         <div className="productItem">

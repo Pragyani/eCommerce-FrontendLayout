@@ -5,8 +5,7 @@ const ProductSectionlist = (props) => {
 
     const [proData, setProData] = useState(product);
     const [catArray, setCatArray] = useState([]);
-    // console.log(product, 'ani');
-
+    const [activeCaTab, setActiveCaTab] = useState(1)
     const catArr = []
 
     useEffect(() => {
@@ -31,13 +30,11 @@ const ProductSectionlist = (props) => {
                 <h2 className="home-h2">Popular Products</h2>
 
                 <ul className="list-inline">
-
-
                     {
                         catArray.map((cat, index) => {
                             return (
                                 <li className="product-list">
-                                    <a className="List">{cat}</a>
+                                    <a className={`List ${activeCaTab === index ? 'act' : ''}`} onClick={() => { setActiveCaTab(index) }}>{cat}</a>
                                 </li>
                             )
                         })

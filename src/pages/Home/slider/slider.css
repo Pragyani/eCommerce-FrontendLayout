@@ -28,7 +28,7 @@
 
 .slick-arrow {
     position: absolute;
-    top: 50%;
+    top: 40%;
     z-index: 1000;
     width: 50px;
     height: 60px;
@@ -37,11 +37,11 @@
 }
 
 .slick-arrow.slick-next {
-    right: 0%;
+    right: -1%;
 }
 
 .slick-arrow.slick-prev {
-    left: 0%;
+    left: -1%;
 }
 
 .home_slider_main {

@@ -8,13 +8,14 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import CompareOutlinedIcon from '@mui/icons-material/CompareOutlined';
 import RemoveRedEyeRoundedIcon from '@mui/icons-material/RemoveRedEyeRounded';
 
-const Product =()=>{
+const Product =(props)=>{
+    
     return(
         <>
         <div className="productThumb">
             <span className="badge">Hot</span>
             <div className="imgWrapper">
-                <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-2-1.jpg" alt="ProductImages" className="p-img"/>
+                <img src={props?.item?.catImg} alt="ProductImages" className="p-img"/>
 
                 <div className="overlay">
                     <ul className="list-inline">
@@ -27,21 +28,21 @@ const Product =()=>{
                          </a>
                          <a className="prolist-i">
                             <RemoveRedEyeRoundedIcon className="pro-i"/>
-                         </a>
+                         </a> 
                         </li>
                     </ul>
                 </div>
             </div>
 
             <div className="info">
-                <span className="based-categories">Snacks</span>
-                <h4 className="tittle"><Link>Seeds of Change Organic Quinoa, Brown, & Red Rice</Link> </h4>
+                <span className="based-categories">{props?.item?.brand}</span>
+                <h4 className="tittle"><Link>{props?.item?.productName}</Link> </h4>
                 <Rating name="half-rating-read" defaultValue={4.5} precision={0.5} readOnly />
-                <span className="brand">By <a  className="text"><Link> Nest Food</Link></a></span>
+                <span className="brand">By <a  className="text"><Link>{props?.item?.brand}</Link></a></span>
 
                 <div className="info-price-Tg">
                     <div className="price-info">
-                        <span className="price">$32.8</span>
+                        <span className="price">Rs.{props?.item?.price}</span>
 
                         <Button className="ad-btn">Add <ShoppingCartIcon className="cart-i"/></Button>
                     </div>

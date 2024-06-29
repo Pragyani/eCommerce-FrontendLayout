@@ -14,11 +14,10 @@ const Home = (props) => {
     return (
         <>
             <HomeSlider />
-            <SemiSlider />
+            <SemiSlider data={products} />
             <Banner />
             <section className="homeProduct">
                 <div className="home-Container">
-
                     <ProductSectionlist product={products} />
                     <Sellslider sellproducts={products} />
                 </div>

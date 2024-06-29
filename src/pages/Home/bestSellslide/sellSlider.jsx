@@ -1,9 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { BannerImg4 } from "../../../Components/imagesURL/Images";
 import Slider from "react-slick";
 import Product from "../../../Components/product/product";
 
-const Sellslider = () => {
+const Sellslider = (props) => {
+    const { sellproducts } = props
+
+    const [sellProduct, setSellProduct] = useState(sellproducts);
+    const [bestSell, setBestSell] = useState([]);
+
+    const bestSellArr = []
+
+    useEffect(() => {
+        sellProduct.length !== 0 &&
+            sellProduct.map((item) => {
+                if (item.cat_name === 'Electronics') {
+                    item.items.length !== 0 &&
+                        item.items.map((item_) => {
+                            item_.products.length !== 0 &&
+                                item_.products.map((prodItem, index) => {
+                                    bestSellArr.push(prodItem)
+                                })
+                        })
+                }
+            })
+        setBestSell(bestSellArr)
+    }, [])
 
     var settings = {
         dots: true,
@@ -18,22 +40,10 @@ const Sellslider = () => {
         <>
             <div className="list-i">
                 <h2 className="home-h2">Daily Best Sells</h2>
-
-                <ul className="list-inline">
-                    <li className="tag-list">
-                        <a className="List">Popular</a>
-                    </li>
-
-                    <li className="tag-list">
-                        <a className="ListMilks ">Featured</a>
-                    </li>
-
-                    <li className="tag-list">
-                        <a className="List">New Added</a>
-                    </li>
-                </ul>
             </div>
-            <br /><br /><br /><br />
+
+            <br /><br />
+
             <div className="row">
                 <div className="col-img">
                     <img src={BannerImg4} alt="banerimg4" />
@@ -41,10 +51,14 @@ const Sellslider = () => {
 
                 <div className="sliderContainer">
                     <Slider {...settings} className="prodSlider">
-                        <div className="item"><Product className="proSection" /></div>
-                        <div className="item"><Product className="proSection" /></div>
-                        <div className="item"><Product className="proSection" /></div>
-                        <div className="item"><Product className="proSection" /></div>
+                        {
+                            bestSell.length !== 0 &&
+                            bestSell.map((item,index) => {
+                                return (
+                                    <div className="item"><Product className="proSection"  item={item}/></div>
+                                )
+                            })
+                        }
                     </Slider>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 .homeProduct {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-top: 20px;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .row .col-img img {
-    height: 99%;
+    height: 80%;
     border-radius: 10px;
     margin-right: 35px;
 }

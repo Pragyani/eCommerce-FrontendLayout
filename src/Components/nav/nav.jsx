@@ -3,15 +3,16 @@ import NavContent from "./Nav-Content/navContainer";
 import './nav.css'
 
 
-const Nav = () => {
+const Nav = (props) => {
+    const {data}=props;
     return (
         <>
             <div className="nav ">
-             <NavContent/>
+             <NavContent nData={data}/>
             </div>
 
         </>
     )
 }
 
-export default Nav;
+export default Nav; 

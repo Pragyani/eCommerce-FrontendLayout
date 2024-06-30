@@ -6,20 +6,21 @@ import HeadsetMicIcon from '@mui/icons-material/HeadsetMic';
 import NavbarList from "./NavbarList";
 
 
-const NavContent = () => {
+const NavContent = (props) => {
+    const {nData}=props;
     return (
         <>
             <div className="container">
-                <div className="row-line">
+                <div className="row-line ">
 
                     <div className="browser-block">
                         <Button className="bgtext"><GridViewIcon className="grid-icon" />Browse All Categories <KeyboardArrowDownIcon /></Button>
                     </div>
-
-                    <div className="nav-content">
+ 
+                    <div className="nav-content ">
                         <nav>
-                            <NavbarList />
-                        </nav>
+                            <NavbarList NavData={nData}/>
+                        </nav> 
                     </div>
 
                     <div className="contact-block">

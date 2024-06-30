@@ -6,7 +6,8 @@ import logoImg from "../imagesURL/Images";
 import NavigationList from "../navigationlist/NavigationList";
 import Nav from "../nav/nav";
 
-const Header = () => {
+const Header = (props) => {
+    const {data}=props;
 
     const [categories, setCategories] = useState([
         'All Categories',
@@ -24,7 +25,7 @@ const Header = () => {
         'Vegetables',
         'Fast Food'
     ])
-
+ 
 
     return (
         <>
@@ -44,11 +45,11 @@ const Header = () => {
                                 </div>
                             </div>
                         </div>
-                        <NavigationList />
+                        <NavigationList/>
                     </div>
                 </div>
             </header>
-           <Nav/>
+           <Nav data={data}/>
         </>
     )
 }

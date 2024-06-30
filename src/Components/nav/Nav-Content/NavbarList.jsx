@@ -1,30 +1,39 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Button from '@mui/material/Button';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
-const NavbarList = () => {
+const NavbarList = (props) => {
+
+    const { NavData } = props;
+    const [navBarData, setNavBarData] = useState([]);
+    // console.log(navBarData, 'navBar')
+
+    useEffect(() => {
+        setNavBarData(NavData);
+
+    }, [])
+
     return (
         <>
             <ul className="nav-list-item">
                 <li className="list-items">
-                    <Button><Link>Home</Link></Button>
+                    <Button><Link to='/'>Home</Link></Button>
                 </li>
-
+                {
+                    navBarData.length !== 0 &&
+                    navBarData.map((item, index) => {
+                        return (
+                            <li className="list-items" key={index}>
+                                <Button>
+                                    <Link to={`/listingPage/${item.cat_name.toLowerCase()}`}>{item?.cat_name}<KeyboardArrowRightIcon className="droper" /></Link>
+                                </Button>
+                            </li>
+                        )
+                    })
+                }
                 <li className="list-items">
                     <Button><Link>About</Link></Button>
-                </li>
-
-                <li className="list-items">
-                    <Button><Link>Shop</Link></Button>
-                </li>
-
-                <li className="list-items">
-                    <Button><Link>Vendors</Link></Button>
-                </li>
-
-                <li className="list-items">
-                    <Button><Link>Mega Menu  <KeyboardArrowDownIcon className="droper" /></Link></Button>
                 </li>
 
                 <li className="list-items">
@@ -32,7 +41,7 @@ const NavbarList = () => {
                 </li>
 
                 <li className="list-items">
-                    <Button><Link>Pages <KeyboardArrowDownIcon className="droper" /></Link></Button>
+                    <Button><Link>Pages</Link></Button>
                 </li>
 
                 <li className="list-items">

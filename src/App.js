@@ -34,10 +34,10 @@ function App() {
     <>
       {productData.length !== 0 &&
         <BrowserRouter>
-          <Header />
+          <Header data={productData} />
           <Routes>
             <Route exact={true} path='/' element={<Home products={productData}/>} />
-            <Route exact={true} path='/listingPage' element={<ListingPage />} />
+            <Route exact={true} path='/listingPage/:id' element={<ListingPage />} />
             <Route exact={true} path='/product/details' element={<DetailPage />} />
             <Route exact={true} path='/about' element={<About />} />
             <Route exact={true} path='*' element={<NotFound />} />

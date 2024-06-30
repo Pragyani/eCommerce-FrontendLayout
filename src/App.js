@@ -9,6 +9,7 @@ import Footer from './Components/footer/footer';
 import NotFound from './pages/NotFoundPage/NotFoundPage';
 import DetailPage from './pages/Details/details';
 import axios from 'axios';
+import { DummyData } from './Components/utlis';
 
 function App() {
   const [productData, setProductData] = useState([]);
@@ -19,14 +20,12 @@ function App() {
 
   const getData = async (url) => {
     try {
-      const res = await axios('http://localhost:3000/productData');
-      setProductData(res.data);
+      setProductData(DummyData.productData)
 
-      console.log(res.data);
-     
+      console.log(DummyData.productData, ' ani');
 
     } catch (error) {
-      console.log("erorr "+ error.message)
+      console.log("erorr " + error.message)
     }
   }
 
@@ -36,8 +35,8 @@ function App() {
         <BrowserRouter>
           <Header data={productData} />
           <Routes>
-            <Route exact={true} path='/' element={<Home products={productData}/>} />
-            <Route exact={true} path='/listingPage/:id' element={<ListingPage />} />
+            <Route exact={true} path='/' element={<Home products={productData} />} />
+            <Route exact={true} path='/listingPage/:id' element={<ListingPage data={productData} single={true} />} />
             <Route exact={true} path='/product/details' element={<DetailPage />} />
             <Route exact={true} path='/about' element={<About />} />
             <Route exact={true} path='*' element={<NotFound />} />

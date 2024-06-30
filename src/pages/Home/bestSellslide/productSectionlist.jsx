@@ -4,10 +4,10 @@ import Product from "../../../Components/product/product";
 const ProductSectionlist = (props) => {
     const { product } = props;
 
-    const [proData, setProData] = useState(product);
+    const proData=(product);
     const [catArray, setCatArray] = useState([]);
     const [activeTab, setActiveTab] = useState();
-    const [activeIndex, setActiveIndex] = useState(1);
+    const [activeIndex, setActiveIndex] = useState(0);
     const [activeTabData, setActiveTabData] = useState([]);
 
     const catArr = []

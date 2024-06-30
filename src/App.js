@@ -9,7 +9,7 @@ import Footer from './Components/footer/footer';
 import NotFound from './pages/NotFoundPage/NotFoundPage';
 import DetailPage from './pages/Details/details';
 import axios from 'axios';
-import { DummyData } from './Components/utlis';
+import { DummyData } from './utlis';
 
 function App() {
   const [productData, setProductData] = useState([]);

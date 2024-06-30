@@ -26,6 +26,10 @@
     cursor: pointer;
 }
 
+.slick-track{
+  margin-left: 0px;
+}
+
 .semi_slider_Main .slick-slide {
     padding-right: 12px;
 }
@@ -55,6 +59,16 @@
     left: inherit;
 }
 
+
+.semi_slider_Main .itemes {
+    margin-left: 12px;
+}
+
+
+.semi_slider_Main .itemes a{
+    text-decoration: none;
+    color: #000;
+}
 .semi_slider_Main .itemes .info {
     margin: auto;
     padding-top: 10px;
@@ -73,6 +87,7 @@
 }
 
 .semi_slider_Main .itemes .info h5 {
+    padding-top:6px ;
     font-size: large;
     font-weight: 500;
 }

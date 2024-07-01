@@ -1,12 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './listPage.css';
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import SideBar from "../../Components/Sidebar/SideBar";
 import Product from "../../Components/product/product";
 
-const ListingPage = () => {
+const ListingPage = (props) => {
+    const { data } = props;
+    console.log(data , ' listData');
+
+    const { id } = useParams();
+
+    useEffect(() => {
+       data.length!==0 &&
+       data.map((item,index)=>{
+        if(props.single===true){
+            if(item.cat_name.toLowerCase() === id.toLowerCase())
+                console.log(item , ' data');
+           
+        }
+       })
+   
+    }, [])
+
+
     return (
         <>
             <section className="listingPAge">

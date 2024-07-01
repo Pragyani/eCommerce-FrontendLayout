@@ -36,7 +36,7 @@ const Product =(props)=>{
 
             <div className="info">
                 <span className="based-categories">{props?.item?.brand}</span>
-                <h4 className="tittle"><Link>{props?.item?.productName}</Link> </h4>
+                <h4 className="tittle"><Link>{props?.item?.productName.substr(0,50)+'...'}</Link> </h4>
                 <Rating name="half-rating-read" defaultValue={4.5} precision={0.5} readOnly />
                 <span className="brand">By <a  className="text"><Link>{props?.item?.brand}</Link></a></span>
 

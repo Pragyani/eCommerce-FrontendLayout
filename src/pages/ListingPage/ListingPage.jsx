@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import './listPage.css';
 import { Link, useParams } from "react-router-dom";
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
@@ -8,20 +8,29 @@ import Product from "../../Components/product/product";
 
 const ListingPage = (props) => {
     const { data } = props;
-    console.log(data , ' listData');
+
+    const [pdata, setPdata] = useState([]);
 
     const { id } = useParams();
 
+    const itemData = [];
+
+
     useEffect(() => {
-       data.length!==0 &&
-       data.map((item,index)=>{
-        if(props.single===true){
-            if(item.cat_name.toLowerCase() === id.toLowerCase())
-                console.log(item , ' data');
-           
-        }
-       })
-   
+        data.length !== 0 &&
+            data.map((item) => {
+                if (props.single === true) {
+                    if (item.cat_name.toLowerCase() === id.toLowerCase())
+                        item.items.length !== 0 &&
+                            item.items.map((item_) => {
+                                item_.products.length !== 0 &&
+                                    item_.products.map((prodItem) => {
+                                        itemData.push(prodItem);
+                                    })
+                            })
+                }
+            })
+        setPdata(itemData);
     }, [])
 
 
@@ -53,36 +62,17 @@ const ListingPage = (props) => {
 
                             <div className="row-col homeProduct ">
                                 <div className="productrow">
-                                    <div className="productItem">
-                                        <Product />
-                                    </div>
-                                    <div className="productItem">
-                                        <Product />
-                                    </div>
-                                    <div className="productItem">
-                                        <Product />
-                                    </div>
-                                    <div className="productItem">
-                                        <Product />
-                                    </div>
-                                    <div className="productItem">
-                                        <Product />
-                                    </div>
-                                    <div className="productItem">
-                                        <Product />
-                                    </div>
-                                    <div className="productItem">
-                                        <Product />
-                                    </div>
-                                    <div className="productItem">
-                                        <Product />
-                                    </div>
-                                    <div className="productItem">
-                                        <Product />
-                                    </div>
-                                    <div className="productItem">
-                                        <Product />
-                                    </div>
+                                    {
+                                        pdata.length !== 0 &&
+                                        pdata.map((item, index) => {
+                                            return (
+                                                <div className="productItem">
+                                                    <Product item={item} />
+                                                </div>
+                                            )
+                                        })
+                                    }
+
                                 </div>
                             </div>
                         </div>

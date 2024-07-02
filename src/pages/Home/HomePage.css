@@ -38,7 +38,7 @@
     cursor: pointer;
     padding-left: 4px;
     text-transform: capitalize;
-    color: rgb(64, 87, 87);
+    color: rgb(38, 47, 47);
     width: auto;
     text-align: center;
     transition: all 0.3s ease-in-out;
@@ -58,8 +58,12 @@
 }
 
 .homeProduct .productrow .productItem {
-    width: 20%;
+    width: 25%;
     padding: 15px 15px;
+}
+
+.productrow.productWrapper .productItem{
+    width: 20%;
 }
 
 .list-inline .tag-list {

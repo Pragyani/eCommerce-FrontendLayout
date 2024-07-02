@@ -57,7 +57,7 @@ const ProductSectionlist = (props) => {
                 </ul>
             </div>
 
-            <div className="productrow">
+            <div className="productrow productWrapper">
                 {
                     activeTabData.length !== 0 &&
                     activeTabData.map((item, index) => {

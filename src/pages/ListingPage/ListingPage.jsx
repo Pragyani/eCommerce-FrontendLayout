@@ -33,7 +33,6 @@ const ListingPage = (props) => {
         setPdata(itemData);
     }, [])
 
-
     return (
         <>
             <section className="listingPAge">
@@ -51,13 +50,12 @@ const ListingPage = (props) => {
                                 <Link to={''}>Snack <KeyboardArrowRightIcon className="arrow" /></Link>
                             </li>
                         </ul>
-
                     </div>
 
                     <div className="listing-data">
                         <div className="row">
                             <div className="datarow-col">
-                                <SideBar />
+                                { data.length!==0 &&  <SideBar data={data} />}
                             </div>
 
                             <div className="row-col homeProduct ">
@@ -72,11 +70,9 @@ const ListingPage = (props) => {
                                             )
                                         })
                                     }
-
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>

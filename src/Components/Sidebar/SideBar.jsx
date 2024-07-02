@@ -7,7 +7,9 @@ import SideImgDetail from "./sideImgDetail/SideDownDetail";
 
 function valuetext(value) { return `${value}°C` };
 
-const SideBar = () => {
+const SideBar = (props) => {
+const {data}= props;
+
 
     const [value, setValue] = React.useState([20, 37]);
 
@@ -19,7 +21,7 @@ const SideBar = () => {
             <div className="slideBar">
                 <div className="card">
                     <h3>Category</h3>
-                    <CardData />
+                    <CardData data={data}/>
                 </div>
 
                 <div className="card">

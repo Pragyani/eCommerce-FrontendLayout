@@ -1,7 +1,9 @@
 import React from "react";
 import { CardImg, CardImg2, CardImg3, CardImg4, CardImg5 } from "../imagesURL/Images";
 
-const CardData = () => {
+const CardData = (props) => {
+    const { data } = props;
+
     return (
         <>
             <div className="card-data">

@@ -38,7 +38,7 @@ const ListingPage = (props) => {
             <section className="listingPAge">
                 <div className="container-fluid">
                     <div className="listing-header">
-                        <h1>Snack</h1>
+                        <h1>E-commerce Shop  <KeyboardArrowRightIcon className="arrow" /></h1>
                         <ul className="list-inline">
                             <li className="list-item">
                                 <Link to={'/'} className="home-fnt"> <HomeOutlinedIcon className="arro" />Home <KeyboardArrowRightIcon className="arrow" /></Link>
@@ -47,7 +47,7 @@ const ListingPage = (props) => {
                                 <Link to={''}>Shop <KeyboardArrowRightIcon className="arrow" /></Link>
                             </li>
                             <li >
-                                <Link to={''}>Snack <KeyboardArrowRightIcon className="arrow" /></Link>
+                                <Link to={`/${id}`}>{id} <KeyboardArrowRightIcon className="arrow" /></Link>
                             </li>
                         </ul>
                     </div>

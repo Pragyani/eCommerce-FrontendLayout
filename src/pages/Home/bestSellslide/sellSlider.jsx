@@ -47,6 +47,7 @@ const Sellslider = (props) => {
             <div className="row">
                 <div className="col-img">
                     <img src={BannerImg4} alt="banerimg4" />
+                    <h2>Bring nature <br /> into your <br /> home</h2>
                 </div>
 
                 <div className="sliderContainer">

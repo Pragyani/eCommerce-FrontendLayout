@@ -83,7 +83,7 @@
 }
 
 .sliderContainer .prodSlider {
-    margin-left: 25px;
+    margin-left: 12px;
 }
 
 .sliderContainer .prodSlider .slick-slide {
@@ -91,11 +91,22 @@
     padding-right: 10px;
 
 }
-
+.row .col-img{
+    position: relative;
+}
 .row .col-img img {
-    height: 80%;
+    height: 79%;
+    width: 350px;
     border-radius: 10px;
-    margin-right: 35px;
+}
+
+.row .col-img h2{
+    position: absolute;
+   left: 42px;
+   top: 40px;
+   font-size: 37px;
+   color: #253D4E;
+   font-weight: 700;
 }
 
 .LetterSection {
@@ -104,7 +115,7 @@
 }
 
 .LetterSection .box {
-    background: url('https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/bg.png?raw=true');
+    background: url('https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-10.png');
     width: 100%;
     height: 25pc;
     display: flex;

@@ -1,0 +1,44 @@
+.contaier{
+    width: 100%;
+    /* border: 1px solid black;
+    margin-top: 20px; */
+}
+
+.contaier .col-lg{
+    width: 50%;
+    margin-top: 30px;
+}
+
+.container-block{
+    margin-left: 230px;
+    margin-right: 150px;
+}
+
+.contaier .col-lg img{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.cntn{
+    width: 50%;
+    margin-top: 30px;
+    
+}
+.cntn .content-form{
+    margin-top: 100px;
+    padding-left: 25px;
+}
+
+.content-form h2{
+    font-size: 40px;
+    color: #253D4E;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.content-form p{
+    margin-bottom: 25px;
+    font-size: 1rem;
+    color: #7E7E7E;
+}

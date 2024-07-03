@@ -2,46 +2,46 @@ const logoImg = "https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/logo.
 
 export default logoImg;
 
- export const compreIcon ="https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/icon-compare.svg"
+ export const compreIcon ="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-compare.svg"
 
- export const WhisListIcon= "https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/icon-heart.svg"
+ export const WhisListIcon= "https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-heart.svg"
 
- export const cartIcon= "https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/icon-cart.svg"
+ export const cartIcon= "https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-cart.svg"
 
- export const userIcon = "https://raw.githubusercontent.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/8ec2e9f2872233b520ce62eaef27d4e96268d0de/src/assets/images/icon-user.svg"
+ export const userIcon = "https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-user.svg"
 
 
  // sliders banner...//
 
- export const slider1 = "https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/slider-1.png?raw=true"
+ export const slider1 = "https://wp.alithemes.com/html/nest/demo/assets/imgs/slider/slider-2.png"
 
- export const Slid2 ='https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/slider-2.png?raw=true'
+ export const Slid2 ='https://wp.alithemes.com/html/nest/demo/assets/imgs/slider/slider-1.png'
 
 
  //banner Images
 
- export const BannerImg1 = 'https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/banner1.jpg?raw=true'
+ export const BannerImg1 = 'https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-1.png'
 
- export const BannerImg2 = 'https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/banner2.jpg?raw=true';
+ export const BannerImg2 = 'https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-2.png';
 
- export const BannerImg3= 'https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/banner3.jpg?raw=true';
+ export const BannerImg3= 'https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-3.png';
 
- export const BannerImg4='https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/banner4.jpg?raw=true'
+ export const BannerImg4='https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-4.png'
 
 
 
  //topProductImges
 
- export const img1 ='https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/thumbnail-2.jpg?raw=true';
+ export const img1 ='https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-1.jpg';
 
- export const img2 ='https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/thumbnail-3.jpg?raw=true';
+ export const img2 ='https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-2.jpg';
 
- export const img3 ='https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/thumbnail-1.jpg?raw=true';
+ export const img3 ='	https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-3.jpg';
 
  
  //LettersectionImage.
 
- export const LetterImg ='https://github.com/rinkuv37/Ecommerce-Website-in-React-Js-with-Payment-Gateway/blob/main/src/assets/images/newsletter.png?raw=true';
+ export const LetterImg ='https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-9.png';
 
  //footer imges icon.
 

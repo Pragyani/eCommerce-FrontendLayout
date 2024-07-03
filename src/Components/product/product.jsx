@@ -12,6 +12,7 @@ const Product =(props)=>{
     
     return(
         <>
+        <Link to={'/product/details'}>
         <div className="productThumb">
             <span className="badge">Hot</span>
             <div className="imgWrapper">
@@ -49,6 +50,7 @@ const Product =(props)=>{
                 </div>
             </div>
         </div>
+        </Link>
         </>
     )
 }

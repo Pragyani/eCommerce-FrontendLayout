@@ -65,7 +65,7 @@ const ListingPage = (props) => {
                                         pdata.map((item, index) => {
                                             return (
                                                 <div className="productItem">
-                                                    <Product item={item} />
+                                                   <Link to={'/product/details'}> <Product item={item} /></Link>
                                                 </div>
                                             )
                                         })

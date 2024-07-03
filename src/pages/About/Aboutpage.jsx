@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import './aboutPage.css';
-import { AboutPageImage, DishImage1, DishImage2, DishImage3 } from "../../Components/imagesURL/Images";
+import { AboutPageImage, DishImage1, DishImage2, DishImage3, TeamImage } from "../../Components/imagesURL/Images";
 
 const About = () => {
     return (
@@ -31,6 +31,7 @@ const About = () => {
                                 <p>Ius ferri velit sanctus cu, sed at soleat accusata. Dictas prompta et Ut placerat  legendos interpre.Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante Etiam sit amet orci eget. Quis commodo odio aenean sed adipiscing. Turpis massa tincidunt dui ut ornare lectus. Auctor elit sed vulputate mi sit amet. Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate id est laborum.</p>
 
                             </div>
+
                             <div className="contnt-picture">
                                 <div className="rowes">
                                     <img src={DishImage1} alt="dishIamge" />
@@ -39,8 +40,6 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -64,8 +63,16 @@ const About = () => {
                 </div>
             </div>
 
+            <div className="teamWork">
+                <div className="img-cont">
+                    <img src={TeamImage} alt="ouTeamPicture" />
+                </div>
 
+                <div className="ourWork">
+                    <span className="count">Our Team Always for You</span>
+                </div>
+            </div>
         </>
     )
 }
-export default About
+export default About;

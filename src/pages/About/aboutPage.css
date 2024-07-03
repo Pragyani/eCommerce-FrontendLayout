@@ -1,49 +1,50 @@
-.contaier{
+.contaier {
     width: 100%;
     margin-bottom: 40px;
 }
 
-.contaier .col-lg{
+.contaier .col-lg {
     width: 50%;
     margin-top: 30px;
 }
 
-.container-block{
+.container-block {
     margin-left: 150px;
     margin-right: 150px;
 }
 
-.contaier .col-lg img{
+.contaier .col-lg img {
     width: 100%;
     margin-top: 20px;
     border-radius: 15px;
 }
 
-.cntn{
+.cntn {
     width: 50%;
     margin-top: 30px;
-    
+
 }
-.cntn .content-form{
+
+.cntn .content-form {
     margin-top: 100px;
     padding-left: 25px;
 }
 
-.content-form h2{
+.content-form h2 {
     font-size: 40px;
     color: #253D4E;
     font-weight: 700;
     margin-bottom: 30px;
 }
 
-.content-form p{
+.content-form p {
     margin-bottom: 25px;
     font-size: 1rem;
     color: #7E7E7E;
     line-height: 27px;
 }
 
-.contnt-picture{
+.contnt-picture {
     width: 100%;
     padding-left: 25px;
     margin-top: 40px;
@@ -51,27 +52,28 @@
     justify-content: space-evenly;
 }
 
-.contnt-picture .rowes img{
+.contnt-picture .rowes img {
     width: 33%;
-    height:260px;
+    height: 260px;
     padding: 0px 12px;
     border-radius: 25px;
 }
 
-.aboutUsInfo{
+.aboutUsInfo {
     width: 100%;
 }
-.container-i{
+
+.container-i {
     width: 100%;
     padding: 10px 30px;
 }
 
-.container-i .row{
+.container-i .row {
     width: 100%;
     justify-content: space-evenly;
 }
 
-.about-info-p1 h3{
+.about-info-p1 h3 {
     margin-bottom: 30px;
     font-size: 32px;
     color: #253D4E;
@@ -79,10 +81,50 @@
     line-height: 1.2;
 }
 
-.about-info-p1 p{
+.about-info-p1 p {
     font-size: 1rem;
     font-weight: 400;
     line-height: 39px;
     color: #7E7E7E;
     cursor: pointer;
+}
+
+.teamWork {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.teamWork .img-cont {
+    width: 100%;
+    padding: 40px 20px;
+
+}
+
+.teamWork .img-cont img {
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.4;
+    border-radius: 30px;
+}
+
+.ourWork {
+    width: 100%;
+    position: absolute;
+    top: 160px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.count {
+    font-size: 90px;
+    font-weight: 550;
+    color: #47535c;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.count:hover {
+    transform: translateY(-10px);
 }

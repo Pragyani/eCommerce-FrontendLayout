@@ -1,14 +1,17 @@
-.banner-section{
-    padding: 25px 0px ;
+.banner-section {
+    padding: 25px 40px;
 }
 
-.banner-section .row{
+.banner-section .row {
     justify-content: space-around;
-    
+
+
 }
-.banner-section .box{
+
+.banner-section .box {
     /* border-radius: 15px ; */
     overflow: hidden;
+
 }
 
 .banner-section .banner-col {
@@ -16,16 +19,46 @@
     /* height: ; */
 }
 
-
-.banner-section .banner-col img{
+.banner-section .banner-col img {
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 25px;
-    margin-right: 2px;
-    margin-left: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 35px;
+
 }
 
-.banner-section .box{
+.banner-section .box {
     cursor: pointer;
+    position: relative;
+}
+
+.banner-col h4 {
+    top: 70px;
+    left: 50px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #253D4E;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+}
+
+.banner-col h4:hover {
+    transform: translateY(-10px);
+}
+
+.img-btn {
+    position: absolute;
+    top: 195px;
+    background-color: #3bb77e;
+    left: 50px;
+    color: white;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    padding: 7px 8px 7px 12px;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-btn:hover {
+    transform: translateY(-6px);
+    background-color: #d5a209;
 }

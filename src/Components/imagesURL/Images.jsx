@@ -116,3 +116,5 @@ export const DishImage1 = "https://wp.alithemes.com/html/nest/demo/assets/imgs/p
 export const DishImage2 = "https://wp.alithemes.com/html/nest/demo/assets/imgs/page/about-4.png";
 
 export const DishImage3 = "https://wp.alithemes.com/html/nest/demo/assets/imgs/page/about-2.png";
+
+export const TeamImage = "https://wp.alithemes.com/html/nest/demo/assets/imgs/page/about-9.png";

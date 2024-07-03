@@ -17,7 +17,7 @@ const DetailPage = () => {
                         <div className="crumb-nav">
                             <ul>
                                 <Link to='/'> <li>Home <KeyboardArrowRightIcon className="arrow" /></li></Link>
-                                <Link to='/listingPage'><li>Vegatble & Tubers  <KeyboardArrowRightIcon className="arrow" /></li></Link>
+                                <Link to={'/product/details'}><li>Vegatble & Tubers  <KeyboardArrowRightIcon className="arrow" /></li></Link>
                                 <li>Seed Of Change organic  <KeyboardArrowRightIcon className="arrow" /></li>
                             </ul>
                         </div>

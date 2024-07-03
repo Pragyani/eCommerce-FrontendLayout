@@ -32,15 +32,34 @@ const About = () => {
 
                             </div>
                             <div className="contnt-picture">
-                            <div className="rowes">
-                                <img src={DishImage1} alt="dishIamge" />
-                                <img src={DishImage2} alt="dishimg" />
-                                <img src={DishImage3} alt="dishimg" />
+                                <div className="rowes">
+                                    <img src={DishImage1} alt="dishIamge" />
+                                    <img src={DishImage2} alt="dishimg" />
+                                    <img src={DishImage3} alt="dishimg" />
+                                </div>
                             </div>
                         </div>
-                        </div>
 
-                      
+
+                    </div>
+                </div>
+            </div>
+
+            <div className="aboutUsInfo">
+                <div className="container-i">
+                    <div className="row">
+                        <div className="about-info-p1">
+                            <h3>Who we are</h3>
+                            <p>Volutpat diam ut venenatis tellus in metus. Nec dui nunc <br /> mattis enim ut tellus eros donec ac odio orci ultrices in. <br /> ellus eros donec ac odio orci ultrices in.</p>
+                        </div>
+                        <div className="about-info-p1">
+                            <h3>Our history</h3>
+                            <p>Volutpat diam ut venenatis tellus in metus. Nec dui nunc <br /> mattis enim ut tellus eros donec ac odio orci ultrices in. <br /> ellus eros donec ac odio orci ultrices in.</p>
+                        </div>
+                        <div className="about-info-p1">
+                            <h3>Our mission</h3>
+                            <p>Volutpat diam ut venenatis tellus in metus. Nec dui nunc <br /> mattis enim ut tellus eros donec ac odio orci ultrices in. <br /> ellus eros donec ac odio orci ultrices in.</p>
+                        </div>
                     </div>
                 </div>
             </div>

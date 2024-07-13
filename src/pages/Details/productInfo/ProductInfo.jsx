@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useLocation } from "react-router";
 import Rating from '@mui/material/Rating';
 import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutlined';
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
@@ -8,6 +9,7 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 
 const ProductInfo = () => {
     const [inputValue, setInputValue] = useState(0);
+    const location = useLocation()
 
     const add = () => { setInputValue(inputValue + 1) }
 
@@ -17,17 +19,17 @@ const ProductInfo = () => {
         <>
             <div className="col-productInfo">
                 <div className="productInfo">
-                    <h1>Seeds of Change Organic <br /> Quinoa, Brown   </h1>
+                    <h1>{location?.state?.detailData?.productName}   </h1>
                     <div className="compreRating">
                         <Rating name="half-rating-read" defaultValue={3.0} precision={0.5} readOnly />
                         <h6>(32 review)</h6>
                     </div>
 
                     <div className="priceSec">
-                        <span className="text-g">$38</span>
+                        <span className="text-g">{location?.state?.detailData?.price}</span>
                     </div>
 
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, <br /> corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum <br /> eligendi.</p>
+                    <p>{location?.state?.detailData?.description}</p>
 
                     <div className="productSize">
                         <div className="pro-size">Size / Weight :</div>

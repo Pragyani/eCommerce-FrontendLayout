@@ -1,16 +1,26 @@
-import React, { useState } from "react";
+import React from "react";
 import "../header/header.css";
 import SearchIcon from '@mui/icons-material/Search';
 import Selection from "../selectDrop/SelectDroper";
 import logoImg from "../imagesURL/Images";
 import NavigationList from "../navigationlist/NavigationList";
 import Nav from "../nav/nav";
+import { useSelector, useDispatch } from 'react-redux';
+import { setInput } from '../states/inputStatesSlice'
+
 
 const Header = (props) => {
-    const {data}=props;
+    const { data } = props;
 
-    const [categories, setCategories] = useState([
-        'All Categories',
+    const inputValue = useSelector((state) => state.input);
+
+    const dispatch = useDispatch();
+
+    const handleChnge = (e) => {
+        dispatch(setInput(e.target.value));
+    }
+
+    const categories = ['All Categories',
         'Milks & Daires',
         'Wine & Drink',
         'Clothing & Beauty',
@@ -23,12 +33,12 @@ const Header = (props) => {
         'Bakery Product',
         'Fresh Fruit',
         'Vegetables',
-        'Fast Food'
-    ])
- 
+        'Fast Food']
+
 
     return (
         <>
+
             <header>
                 <div className="container-header">
                     <div className="row">
@@ -40,16 +50,22 @@ const Header = (props) => {
                             <div className="headerSearch d-flex align-items-center">
                                 <Selection data={categories} />
                                 <div className="search">
-                                    <input type="text" placeholder="Search Here For Item..." />
+                                    <input
+                                        type="text" placeholder="Search Here For Item..."
+                                        onChange={handleChnge} value={inputValue}
+                                    />
+
                                     <SearchIcon className="search-icon" />
                                 </div>
                             </div>
                         </div>
-                        <NavigationList/>
+                        <NavigationList />
+
                     </div>
                 </div>
             </header>
-           <Nav data={data}/>
+            <Nav data={data} />
+
         </>
     )
 }

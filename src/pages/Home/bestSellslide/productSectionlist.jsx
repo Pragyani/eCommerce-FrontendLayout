@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Product from "../../../Components/product/product";
+import { useSelector } from "react-redux";
+
 
 const ProductSectionlist = (props) => {
     const { product } = props;
 
+    const inputValue = useSelector((state)=> state.input);
     const proData=(product);
     const [catArray, setCatArray] = useState([]);
     const [activeTab, setActiveTab] = useState();
@@ -61,12 +64,16 @@ const ProductSectionlist = (props) => {
                 {
                     activeTabData.length !== 0 &&
                     activeTabData.map((item, index) => {
-                        return (
-                            <div className="productItem">
-                                <Product item={item} />
-                            </div>
-                        )
-                    })
+                        if(item?.productName.toLowerCase().includes(inputValue)){
+                            return (
+                                <div className="productItem" key={index}>
+                                    <Product item={item} />
+                                </div>
+                            )
+                        }else{
+                            return null
+                        }
+                     })
                 }
             </div>
         </>

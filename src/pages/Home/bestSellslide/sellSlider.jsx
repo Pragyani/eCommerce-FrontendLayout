@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BannerImg4 } from "../../../Components/imagesURL/Images";
 import Slider from "react-slick";
 import Product from "../../../Components/product/product";
+import { useSelector } from "react-redux";
 
 const Sellslider = (props) => {
     const { sellproducts } = props
@@ -10,7 +11,7 @@ const Sellslider = (props) => {
     const [bestSell, setBestSell] = useState([]);
 
     const bestSellArr = []
-
+const inputValue = useSelector((state)=>state.input)
     useEffect(() => {
         sellProduct.length !== 0 &&
             sellProduct.map((item) => {
@@ -55,9 +56,14 @@ const Sellslider = (props) => {
                         {
                             bestSell.length !== 0 &&
                             bestSell.map((item,index) => {
-                                return (
+                                if(item?.productName.toLowerCase().includes(inputValue)){
+                                    return (
                                     <div className="item"><Product className="proSection"  item={item}/></div>
                                 )
+                                }else{
+                                    return null
+                                }
+                              
                             })
                         }
                     </Slider>

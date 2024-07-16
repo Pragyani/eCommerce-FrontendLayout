@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import './listPage.css';
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams ,useLocation } from "react-router-dom";
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import SideBar from "../../Components/Sidebar/SideBar";
 import Product from "../../Components/product/product";
+import { useSelector } from "react-redux";
 
 const ListingPage = (props) => {
     const { data } = props;
@@ -15,7 +16,7 @@ const ListingPage = (props) => {
 
     const itemData = [];
 
-
+  const inputValue = useSelector((state)=>state.input)
     useEffect(() => {
         data.length !== 0 &&
             data.map((item) => {
@@ -63,11 +64,16 @@ const ListingPage = (props) => {
                                     {
                                         pdata.length !== 0 &&
                                         pdata.map((item, index) => {
-                                            return (
-                                                <div className="productItem">
-                                                   <Link to={'/product/details'}> <Product item={item} /></Link>
-                                                </div>
-                                            )
+                                            if(item?.productName.toLowerCase().includes(inputValue)){
+                                                return (
+                                                    <div className="productItem">
+                                                        <Product item={item} />
+                                                    </div>
+                                                )
+                                            }else{
+                                                return null
+                                            }
+                                           
                                         })
                                     }
                                 </div>

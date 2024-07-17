@@ -8,7 +8,6 @@ import ListingPage from './pages/ListingPage/ListingPage';
 import Footer from './Components/footer/footer';
 import NotFound from './pages/NotFoundPage/NotFoundPage';
 import DetailPage from './pages/Details/details';
-import axios from 'axios';
 import { DummyData } from './utlis';
 
 function App() {
@@ -33,18 +32,20 @@ function App() {
     <>
       {productData.length !== 0 &&
         <BrowserRouter>
-          <Header data={productData} />
-          <Routes>
-            <Route exact={true} path='/' element={<Home products={productData} />} />
-            <Route exact={true} path='/listingPage/:id' element={<ListingPage data={productData} single={true} />} />
-            <Route exact={true} path='/product/details' element={<DetailPage />} />
-            <Route exact={true} path='/about' element={<About />} />
-            <Route exact={true} path='*' element={<NotFound />} />
-          </Routes>
-          <Footer />
+            <Header data={productData} />
+            <Routes>
+              <Route exact={true} path='/' element={<Home products={productData} />} />
+              <Route exact={true} path='/listingPage/:id' element={<ListingPage data={productData} single={true} />} />
+              <Route exact={true} path='/product/details' element={<DetailPage />} />
+              <Route exact={true} path='/about' element={<About />} />
+              <Route exact={true} path='*' element={<NotFound />} />
+            </Routes>
+            <Footer />
         </BrowserRouter>
       }
     </>
   );
 }
+
 export default App;
+// export {AppContext , AppProvider};

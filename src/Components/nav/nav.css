@@ -7,14 +7,13 @@
 
 }
 
-
 .row-line {
     display: flex;
     justify-content: space-evenly;
 }
 
 .browser-block {
-    margin-left: 0px;
+    margin-left: 0px; 
     margin-right: 0px;
     margin-top: 12px;
 

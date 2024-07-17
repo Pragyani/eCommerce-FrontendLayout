@@ -18,8 +18,7 @@ const Product = (props) => {
         navigate('/product/details', { state: { detailData: props.item } })
     }
 
-
-
+    
     return (
         <>
             <div onClick={gotoDetaailPage}>

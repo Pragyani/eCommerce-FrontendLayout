@@ -13,9 +13,9 @@ export const userIcon = "https://wp.alithemes.com/html/nest/demo/assets/imgs/the
 
 // sliders banner...//
 
-export const slider1 = "https://wp.alithemes.com/html/nest/demo/assets/imgs/slider/slider-2.png"
+export const slider1 = "https://wp.alithemes.com/html/nest/demo/assets/imgs/slider/slider-1.png"
 
-export const Slid2 = 'https://wp.alithemes.com/html/nest/demo/assets/imgs/slider/slider-1.png'
+export const Slid2 = 'https://wp.alithemes.com/html/nest/demo/assets/imgs/slider/slider-2.png'
 
 
 //banner Images

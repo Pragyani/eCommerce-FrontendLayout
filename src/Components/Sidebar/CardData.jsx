@@ -11,7 +11,6 @@ const CardData = (props) => {
                 {
                     data.length !== 0 &&
                     data.map((item, index) => {
-                        console.log(item, ' cat')
                         return (
                             <Link to={`/listingPage/${item.cat_name.toLowerCase()}`} className="link">
                                 <div className="card-item">

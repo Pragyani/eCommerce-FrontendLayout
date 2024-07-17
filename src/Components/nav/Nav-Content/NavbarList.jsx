@@ -26,14 +26,14 @@ const NavbarList = (props) => {
                         return (
                             <li className="list-items" key={index}>
                                 <Button>
-                                    <Link to={`/listingPage/${item.cat_name.toLowerCase()}`}>{item?.cat_name}<KeyboardArrowRightIcon className="droper" /></Link>
+                                    <a href={`/listingPage/${item.cat_name.toLowerCase()}`}>{item?.cat_name}<KeyboardArrowRightIcon className="droper" /></a>
                                 </Button>
                             </li>
                         )
                     })
                 }
                 <li className="list-items">
-                    <Button><Link>About</Link></Button>
+                    <Button><Link to={'/about'}>About</Link></Button>
                 </li>
 
                 <li className="list-items">

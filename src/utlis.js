@@ -826,7 +826,7 @@ export const DummyData = {
           "products": [
             {
               "productName": "OnePlus Nord CE 2 Lite 5G,128 GB,6 GB RAM,Blue Tide,Mobile Phone",
-              "price": "16,999.00",
+              "price": "300",
               "oldPrice": "19,999.00",
               "weight": [],
               "RAM": [
@@ -853,7 +853,7 @@ export const DummyData = {
             },
             {
               "productName": "Apple iPhone 13 128 GB, Midnight (Black)",
-              "price": "56,900.00",
+              "price": "280",
               "oldPrice": "59,900.00",
               "weight": [],
               "RAM": [
@@ -878,7 +878,7 @@ export const DummyData = {
             },
             {
               "productName": "Tecno Pop 7 Pro 64 GB, 2 GB, Black, Smartphone",
-              "price": "5,555.00",
+              "price": "180",
               "oldPrice": "7,999.00 ",
               "weight": [],
               "RAM": [
@@ -903,7 +903,7 @@ export const DummyData = {
             },
             {
               "productName": "Realme C55 DLC 64GB, 4 GB RAM, Sunshower, Mobile Phone",
-              "price": "10,299.00",
+              "price": "230",
               "oldPrice": "12,999.00 ",
               "weight": [],
               "RAM": [
@@ -928,7 +928,7 @@ export const DummyData = {
             },
             {
               "productName": "POCO M6 Pro 5G, 6GB RAM, 128GB ROM, Power Black, Smartphone",
-              "price": "12,199.00",
+              "price": "280",
               "oldPrice": "16,999.00",
               "weight": [],
               "RAM": [
@@ -955,7 +955,7 @@ export const DummyData = {
           "products": [
             {
               "productName": "Realme 80 cm (32 inch) HD Ready LED Smart Android TV 2023 Edition with Android 11 RMV2205",
-              "price": "9,990.00",
+              "price": "189",
               "oldPrice": "21,999.00 ",
               "weight": [],
               "RAM": [],
@@ -978,7 +978,7 @@ export const DummyData = {
             },
             {
               "productName": "Realme 80 cm (32 inch) HD Ready LED Smart Android TV 2023 Edition with Android 11 RMV2205",
-              "price": "9,990.00",
+              "price": "20",
               "oldPrice": "21,999.00 ",
               "weight": [],
               "RAM": [],
@@ -1001,7 +1001,7 @@ export const DummyData = {
             },
             {
               "productName": "OnePlus 108 cm (43 inch) Full HD Android Smart LED TV with Dolby Audio Surround Sound Technology, 43Y1S Edge",
-              "price": "22,990.00",
+              "price": "222",
               "oldPrice": "33,999.00",
               "weight": [],
               "RAM": [],
@@ -1024,7 +1024,7 @@ export const DummyData = {
             },
             {
               "productName": "TCL 55 QLED Smart Google TV, 55C645",
-              "price": "39,990.00",
+              "price": "129",
               "oldPrice": "121,990.00",
               "weight": [],
               "RAM": [],

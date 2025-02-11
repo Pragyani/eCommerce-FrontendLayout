@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './listPage.css';
-import { Link, useParams ,useLocation } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import SideBar from "../../Components/Sidebar/SideBar";
@@ -9,14 +9,12 @@ import { useSelector } from "react-redux";
 
 const ListingPage = (props) => {
     const { data } = props;
-
     const [pdata, setPdata] = useState([]);
-
+    const [filterPrice, setFilterPrice] = useState([0, 2000]);
     const { id } = useParams();
-
     const itemData = [];
+    const inputValue = useSelector((state) => state.input);
 
-  const inputValue = useSelector((state)=>state.input)
     useEffect(() => {
         data.length !== 0 &&
             data.map((item) => {
@@ -27,16 +25,20 @@ const ListingPage = (props) => {
                                 item_.products.length !== 0 &&
                                     item_.products.map((prodItem) => {
                                         itemData.push(prodItem);
-                                    })
-                            })
+                                    });
+                            });
                 }
-            })
+            });
         setPdata(itemData);
-    }, [id])
+    }, [id]);
+
+    const filteredData = pdata.filter(item => {
+        return item.price >= filterPrice[0] && item.price <= filterPrice[1];
+    });
 
     return (
         <>
-            <section className="listingPAge">
+            <section className="listingPage">
                 <div className="container-fluid">
                     <div className="listing-header">
                         <h1>E-commerce Shop  <KeyboardArrowRightIcon className="arrow" /></h1>
@@ -56,26 +58,26 @@ const ListingPage = (props) => {
                     <div className="listing-data">
                         <div className="row">
                             <div className="datarow-col">
-                                { data.length!==0 &&  <SideBar data={data} />}
+                                {data.length !== 0 && <SideBar data={data} setFilterPrice={setFilterPrice} />}
                             </div>
 
                             <div className="row-col homeProduct ">
                                 <div className="productrow">
-                                    {
-                                        pdata.length !== 0 &&
-                                        pdata.map((item, index) => {
-                                            if(item?.productName.toLowerCase().includes(inputValue)){
+                                    {filteredData.length !== 0 ? (
+                                        filteredData.map((item, index) => {
+                                            if (item?.productName.toLowerCase().includes(inputValue)) {
                                                 return (
-                                                    <div className="productItem">
+                                                    <div className="productItem" key={index}>
                                                         <Product item={item} />
                                                     </div>
-                                                )
-                                            }else{
-                                                return null
+                                                );
+                                            } else {
+                                                return null;
                                             }
-                                           
                                         })
-                                    }
+                                    ) : (
+                                        <div className="no-results">Your filtered data doesn't exist in our stock.</div>
+                                    )}
                                 </div>
                             </div>
                         </div>
@@ -83,6 +85,6 @@ const ListingPage = (props) => {
                 </div>
             </section>
         </>
-    )
-}
+    );
+};
 export default ListingPage;

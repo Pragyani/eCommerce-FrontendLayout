@@ -6,8 +6,8 @@ import { useSelector } from "react-redux";
 const ProductSectionlist = (props) => {
     const { product } = props;
 
-    const inputValue = useSelector((state)=> state.input);
-    const proData=(product);
+    const inputValue = useSelector((state) => state.input);
+    const proData = (product);
     const [catArray, setCatArray] = useState([]);
     const [activeTab, setActiveTab] = useState();
     const [activeIndex, setActiveIndex] = useState(0);
@@ -64,16 +64,16 @@ const ProductSectionlist = (props) => {
                 {
                     activeTabData.length !== 0 &&
                     activeTabData.map((item, index) => {
-                        if(item?.productName.toLowerCase().includes(inputValue)){
+                        if (item?.productName.toLowerCase().includes(inputValue)) {
                             return (
                                 <div className="productItem" key={index}>
                                     <Product item={item} />
                                 </div>
                             )
-                        }else{
+                        } else {
                             return null
                         }
-                     })
+                    })
                 }
             </div>
         </>
